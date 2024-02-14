@@ -1,0 +1,2588 @@
+[
+  {
+    "kind": "youtube#searchListResponse",
+    "etag": "cxbA3CDp5Ffvn82WiNY7hZ8BG-g",
+    "nextPageToken": "CBkQAA",
+    "regionCode": "IN",
+    "pageInfo": {
+      "totalResults": 1000000,
+      "resultsPerPage": 25
+    },
+    "items": [
+      {
+        "kind": "youtube#searchResult",
+        "etag": "c2u1MaD0t_9EEghFl06wVErFdqY",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "KI-kaGiYnl8"
+        },
+        "snippet": {
+          "publishedAt": "2023-04-07T13:00:22Z",
+          "channelId": "UCKtu_JtQCY0yryIy6zK4ZCg",
+          "title": "😳 easy way to paint amazing portraits",
+          "description": "Full portrait class: https://youtu.be/Rhmhr8eYoqQ Want MORE? Join the ART School for Digital Artists program here ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/KI-kaGiYnl8/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/KI-kaGiYnl8/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/KI-kaGiYnl8/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "Marc Brunet",
+          "liveBroadcastContent": "none",
+          "publishTime": "2023-04-07T13:00:22Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "1TDm4LkCVO-swyw-pJcM5_npH58",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "6SRBIpho750"
+        },
+        "snippet": {
+          "publishedAt": "2023-04-07T16:16:47Z",
+          "channelId": "UCNNOvB507MRfny7Jcv8MmOw",
+          "title": "Portrait Painting Process :)",
+          "description": "",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/6SRBIpho750/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/6SRBIpho750/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/6SRBIpho750/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "SamDoesArts",
+          "liveBroadcastContent": "none",
+          "publishTime": "2023-04-07T16:16:47Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "KgAZtZKL02Vl1Lulf4-oDvH5DVk",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "SMwAfHCzxtM"
+        },
+        "snippet": {
+          "publishedAt": "2023-04-10T20:02:41Z",
+          "channelId": "UCePjHk6fyiGS4Qr4YcVsq7Q",
+          "title": "30 DAYS Of Portraits Changed My Art FOREVER",
+          "description": "Some crazy improvement over 30 portraits... I surprised myself with this for sure. You can check out my 30 day process on my ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/SMwAfHCzxtM/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/SMwAfHCzxtM/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/SMwAfHCzxtM/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "Jonnel Art",
+          "liveBroadcastContent": "none",
+          "publishTime": "2023-04-10T20:02:41Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "PDBo_9q9jUs5MtxUEbLzamhDrJM",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "qHathJpGpzY"
+        },
+        "snippet": {
+          "publishedAt": "2022-11-25T19:59:31Z",
+          "channelId": "UCI6xYQVv9mU5MKU6BodBUHw",
+          "title": "Oil Digital portrait | Procreate | avvart",
+          "description": "I used my Brushes for procreate :(oil portrait brushpack) (Portrait Watercolor Big Brushpack) My brushes : https://linktr.ee/avvart my ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/qHathJpGpzY/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/qHathJpGpzY/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/qHathJpGpzY/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "Aleksei Vinogradov",
+          "liveBroadcastContent": "none",
+          "publishTime": "2022-11-25T19:59:31Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "7VkiJyz9rj2lxGOPZxRu2o9aJDM",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "UUaXHLziNpM"
+        },
+        "snippet": {
+          "publishedAt": "2023-01-27T18:31:02Z",
+          "channelId": "UCI6xYQVv9mU5MKU6BodBUHw",
+          "title": "Digital Portrait in Procreate - avvart",
+          "description": "I used my Brushes for procreate - (Portrait Watercolor Big Brushpack)(New Portrait Big Brushset) My Brushes, Patreon ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/UUaXHLziNpM/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/UUaXHLziNpM/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/UUaXHLziNpM/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "Aleksei Vinogradov",
+          "liveBroadcastContent": "none",
+          "publishTime": "2023-01-27T18:31:02Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "jiL4XhQGf1jmyAb6WF2aIQyekkg",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "7PzZtylPZcA"
+        },
+        "snippet": {
+          "publishedAt": "2023-04-21T16:00:05Z",
+          "channelId": "UCArWfFqEhLkSAT5uYZJixvA",
+          "title": "I Learned How to Paint Portraits in 24 Hours",
+          "description": "Enjoy watching me struggle to learn how to hold to paint and render. All my drawing time equals 24 hours, only 9976 more hours ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/7PzZtylPZcA/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/7PzZtylPZcA/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/7PzZtylPZcA/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "Jackie Droujko",
+          "liveBroadcastContent": "none",
+          "publishTime": "2023-04-21T16:00:05Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "heF_VAUvSm3sm-RYjDpQDDuW8Gg",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "WGtrmNQ6HWc"
+        },
+        "snippet": {
+          "publishedAt": "2019-10-28T19:33:31Z",
+          "channelId": "UC0afN6pfGfPUbquFGDE3f5A",
+          "title": "How To Learn Portrait Painting by Angel Ganev",
+          "description": "The steps and exercises to learn portrait fundamentals. ▶︎Support me on Patreon: https://www.patreon.com/angelganev ASARO ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/WGtrmNQ6HWc/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/WGtrmNQ6HWc/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/WGtrmNQ6HWc/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "Angel Ganev",
+          "liveBroadcastContent": "none",
+          "publishTime": "2019-10-28T19:33:31Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "sanMZuRSuSRaAv_7Rjuynhxi44g",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "TKWGAxiuuic"
+        },
+        "snippet": {
+          "publishedAt": "2023-01-29T19:30:46Z",
+          "channelId": "UCI6xYQVv9mU5MKU6BodBUHw",
+          "title": "Digital portrait - Classic - avvart",
+          "description": "I used my Brushes for procreate - (Portrait Watercolor Big Brushpack)(New Portrait Big Brushset)(oil brushpack) My Brushes, ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/TKWGAxiuuic/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/TKWGAxiuuic/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/TKWGAxiuuic/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "Aleksei Vinogradov",
+          "liveBroadcastContent": "none",
+          "publishTime": "2023-01-29T19:30:46Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "ONBB3ni24z0ZGirWRpLFlfxBLeI",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "3qVLG2fpANw"
+        },
+        "snippet": {
+          "publishedAt": "2021-02-11T10:13:38Z",
+          "channelId": "UC2ZOy7_xB7Hu6p8kL895UMA",
+          "title": "How to cartoon yourself / Digital portrait from photo | Procreate ✍🏼 IPad Air 3",
+          "description": "Hi guys! I hope this video is useful! If you guys try these techniques please tag me on Instagram! I'd love to see! New brushe set ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/3qVLG2fpANw/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/3qVLG2fpANw/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/3qVLG2fpANw/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "Moss Journal",
+          "liveBroadcastContent": "none",
+          "publishTime": "2021-02-11T10:13:38Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "Z6NWA1a4WEQdzWN6UXeU9yv55ik",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "V_WyckiPCAY"
+        },
+        "snippet": {
+          "publishedAt": "2023-01-14T19:42:55Z",
+          "channelId": "UCI6xYQVv9mU5MKU6BodBUHw",
+          "title": "Digital Portrait - Procreat - avvart",
+          "description": "I used my Brushes for procreate - (Oil Brushpack)(Portrait Watercolor Big Brushpack)(New Portrait Big Brushset) My brushes ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/V_WyckiPCAY/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/V_WyckiPCAY/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/V_WyckiPCAY/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "Aleksei Vinogradov",
+          "liveBroadcastContent": "none",
+          "publishTime": "2023-01-14T19:42:55Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "0Xr-r3B6FYT1kkLz85ho-jf_tNA",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "3-duKNCnYZU"
+        },
+        "snippet": {
+          "publishedAt": "2023-01-31T16:23:00Z",
+          "channelId": "UCUpO0rkP_Lnb25yLecBdbow",
+          "title": "How I START My Portrait PAINTINGS 🖌",
+          "description": "Please join me in my full Skillshare class here! https://skl.sh/3jUrgCP I can't wait to paint with you! :D Rather download the class ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/3-duKNCnYZU/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/3-duKNCnYZU/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/3-duKNCnYZU/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "Gabrielle Brickey",
+          "liveBroadcastContent": "none",
+          "publishTime": "2023-01-31T16:23:00Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "MGItn9ugzXixVeKAOMrZY1dec7c",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "CKmge6iS040"
+        },
+        "snippet": {
+          "publishedAt": "2023-01-02T15:00:06Z",
+          "channelId": "UCyvUNIXalUhfW4Ny_h9umeg",
+          "title": "How to PAINT a portrait in 7 STEPS",
+          "description": "ALL MY LINKS ➜ https://linktr.ee/lucaspeinador Hey! In this Short video, I'm gonna share with you a very simple and affective 7 ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/CKmge6iS040/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/CKmge6iS040/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/CKmge6iS040/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "Lucas Peinador",
+          "liveBroadcastContent": "none",
+          "publishTime": "2023-01-02T15:00:06Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "TiZfP5Mx6H-Jl_S3hrPo5ldVjyw",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "Q9T-_gfhigs"
+        },
+        "snippet": {
+          "publishedAt": "2022-12-03T15:00:14Z",
+          "channelId": "UCSl51TSNCxLQJqLTQp0B6Cg",
+          "title": "Painting a Digital Portrait with NO EXPERIENCE... easier than traditional?",
+          "description": "I have never painted a digital portrait before and I have actually only tried digital painting once before. So, I want to try and learn ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/Q9T-_gfhigs/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/Q9T-_gfhigs/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/Q9T-_gfhigs/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "Kirsty Partridge Art",
+          "liveBroadcastContent": "none",
+          "publishTime": "2022-12-03T15:00:14Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "eytUcGx014H1-0oJ2OXu-k-LU2w",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "X15wV_brtkI"
+        },
+        "snippet": {
+          "publishedAt": "2022-12-07T18:27:17Z",
+          "channelId": "UCNNOvB507MRfny7Jcv8MmOw",
+          "title": "Digital Painting Process!",
+          "description": "Some process shots of my recent piece, check out the final on my instagram @samdoesarts.",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/X15wV_brtkI/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/X15wV_brtkI/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/X15wV_brtkI/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "SamDoesArts",
+          "liveBroadcastContent": "none",
+          "publishTime": "2022-12-07T18:27:17Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "V189_o4PJU53lnORCR9aZo06WPA",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "KwvsP5Vgbjg"
+        },
+        "snippet": {
+          "publishedAt": "2020-05-28T14:07:54Z",
+          "channelId": "UCyjTtXnpBEI45ssSmt_VKrA",
+          "title": "This 1 Minute Digital Painting Tutorial will Teach you More Than You Expect",
+          "description": "HOW TO PAINT SKIN! A Lazy Digital Painting Tutorial; In this painting tutorial video i show you how to paint skintones in ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/KwvsP5Vgbjg/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/KwvsP5Vgbjg/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/KwvsP5Vgbjg/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "Mohammed Agbadi",
+          "liveBroadcastContent": "none",
+          "publishTime": "2020-05-28T14:07:54Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "UQHbdp0FVSqG7SUKqMOGpc8VydQ",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "ckAidMjZGIc"
+        },
+        "snippet": {
+          "publishedAt": "2023-05-01T15:58:23Z",
+          "channelId": "UCNNOvB507MRfny7Jcv8MmOw",
+          "title": "Digital Art Process!",
+          "description": "",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/ckAidMjZGIc/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/ckAidMjZGIc/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/ckAidMjZGIc/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "SamDoesArts",
+          "liveBroadcastContent": "none",
+          "publishTime": "2023-05-01T15:58:23Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "bFUSNoDuziBgrpIF6wh-YDrzqdM",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "ssLGCpMlV9g"
+        },
+        "snippet": {
+          "publishedAt": "2023-01-09T19:56:49Z",
+          "channelId": "UCI6xYQVv9mU5MKU6BodBUHw",
+          "title": "Digital portrait in Procreate - avvart",
+          "description": "I used my Brushes for procreate - (Oil Brushpack)(Portrait Watercolor Big Brushpack)(New Portrait Big Brushset) My brushes ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/ssLGCpMlV9g/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/ssLGCpMlV9g/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/ssLGCpMlV9g/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "Aleksei Vinogradov",
+          "liveBroadcastContent": "none",
+          "publishTime": "2023-01-09T19:56:49Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "Rpb-m42enT8GcKuCbqYfVGZTsvo",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "Rhmhr8eYoqQ"
+        },
+        "snippet": {
+          "publishedAt": "2021-09-25T09:16:26Z",
+          "channelId": "UCKtu_JtQCY0yryIy6zK4ZCg",
+          "title": "👩‍🦰 HOW TO PAINT PORTRAITS LIKE A BOSS",
+          "description": "Get 35% OFF ($210) the ART School: Digital Artists program http://cgart.school until February 29 2024 ONLY!! Join the program ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/Rhmhr8eYoqQ/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/Rhmhr8eYoqQ/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/Rhmhr8eYoqQ/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "Marc Brunet",
+          "liveBroadcastContent": "none",
+          "publishTime": "2021-09-25T09:16:26Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "orOp7GCmA1TrSVFElqyL3u31KSA",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "sMvA4R3_dZ8"
+        },
+        "snippet": {
+          "publishedAt": "2020-11-17T17:00:11Z",
+          "channelId": "UCKfG25IfoxX8AT0JjmG2H0Q",
+          "title": "Queen&#39;s Gambit Speedpainting &amp; How I learned to paint",
+          "description": "I learned painting for years with very little improvement, then it changed when I started focusing on how I was learning, what I was ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/sMvA4R3_dZ8/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/sMvA4R3_dZ8/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/sMvA4R3_dZ8/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "Bobby Chiu",
+          "liveBroadcastContent": "none",
+          "publishTime": "2020-11-17T17:00:11Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "TauJlLZnVfLEbXRGvsKsBfEyt2Q",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "-tfNyrMbnjU"
+        },
+        "snippet": {
+          "publishedAt": "2022-03-13T06:05:37Z",
+          "channelId": "UCSPMtkMTtPY09wPkhmsF6rg",
+          "title": "Creating My OWN Digital Portrait 😱",
+          "description": "Instagram : https://www.instagram.com/shivangi.sah/ I'm back with a new video 'Creating My OWN Digital Portrait'. In this video I'm ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/-tfNyrMbnjU/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/-tfNyrMbnjU/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/-tfNyrMbnjU/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "Shivangi Sah",
+          "liveBroadcastContent": "none",
+          "publishTime": "2022-03-13T06:05:37Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "NDdpKn2OR4a1Vt87GtxNNzok-JI",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "RdNIpPldouU"
+        },
+        "snippet": {
+          "publishedAt": "2023-05-05T16:00:16Z",
+          "channelId": "UCArWfFqEhLkSAT5uYZJixvA",
+          "title": "How to stylize portraits",
+          "description": "Check out this clip from my video 'I learned how to paint portraits in 24 hours'! #study #art #portrait.",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/RdNIpPldouU/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/RdNIpPldouU/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/RdNIpPldouU/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "Jackie Droujko",
+          "liveBroadcastContent": "none",
+          "publishTime": "2023-05-05T16:00:16Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "qAtd21gg7t0xm_VxKUKqQbyoe0k",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "RwHQlAr6BGQ"
+        },
+        "snippet": {
+          "publishedAt": "2023-01-31T19:29:02Z",
+          "channelId": "UCd7tEdWq9fmiK5Kodm0sVBQ",
+          "title": "Digital portrait on procreate",
+          "description": "",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/RwHQlAr6BGQ/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/RwHQlAr6BGQ/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/RwHQlAr6BGQ/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "Ylanast Stuzhuk",
+          "liveBroadcastContent": "none",
+          "publishTime": "2023-01-31T19:29:02Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "RMujjDAb1n_JZvg9Fn7so8xWHnQ",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "iwRa5qTnr8o"
+        },
+        "snippet": {
+          "publishedAt": "2020-12-10T18:51:09Z",
+          "channelId": "UCUQTqWAaSzhAKRanOpes1nA",
+          "title": "How to Learn Digital Painting (Beginners)",
+          "description": "A true beginner's guide to digital painting. The best way to learn the basics and get started with it. Remember, much like learning ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/iwRa5qTnr8o/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/iwRa5qTnr8o/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/iwRa5qTnr8o/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "Sinix Design",
+          "liveBroadcastContent": "none",
+          "publishTime": "2020-12-10T18:51:09Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "4P8vnf_r7opKzhx7dL9ryU__0Tw",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "bWFKP4H1PYg"
+        },
+        "snippet": {
+          "publishedAt": "2021-08-18T14:00:28Z",
+          "channelId": "UCarOk8mEmHR7UNf0GEOZkUA",
+          "title": "Adding Details to Digital Portraits - EASY Digital Painting Technique",
+          "description": "Grab my free Portrait Brush Set: https://pntbl.cc/brushset Do you know when you should add details to your digital portraits?",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/bWFKP4H1PYg/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/bWFKP4H1PYg/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/bWFKP4H1PYg/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "Paintable",
+          "liveBroadcastContent": "none",
+          "publishTime": "2021-08-18T14:00:28Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "JLC4uML2MgLZwFognOelVANDEwM",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "ujbjkv18L-E"
+        },
+        "snippet": {
+          "publishedAt": "2022-04-07T14:00:19Z",
+          "channelId": "UCarOk8mEmHR7UNf0GEOZkUA",
+          "title": "Digital Painting HACKS you NEED for Drawing Portraits in Your Style",
+          "description": "Today I'm bringing you the digital painting hacks you need to know about to create stunning stylized digital paintings. Want to start ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/ujbjkv18L-E/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/ujbjkv18L-E/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/ujbjkv18L-E/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "Paintable",
+          "liveBroadcastContent": "none",
+          "publishTime": "2022-04-07T14:00:19Z"
+        }
+      }
+    ]
+  },
+  {
+    "kind": "youtube#searchListResponse",
+    "etag": "dWz_TfgSeipMGWoLuMXdozUPtP0",
+    "nextPageToken": "CBkQAA",
+    "regionCode": "IN",
+    "pageInfo": {
+      "totalResults": 1000000,
+      "resultsPerPage": 25
+    },
+    "items": [
+      {
+        "kind": "youtube#searchResult",
+        "etag": "zVfJSiC1Vwx2QOAyxFw0uzdocXU",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "pmICNOf6hE8"
+        },
+        "snippet": {
+          "publishedAt": "2021-02-27T20:00:49Z",
+          "channelId": "UCPimRcICXYvj1tLW5WB-Bww",
+          "title": "How To Use Abstract Colours / PAINTING / Acrylic on Canvas / PORTRAIT",
+          "description": "How To Use Abstract Colours / PAINTING / Acrylic on Canvas Paintings For Sale (featured on YouTube) My Shop: ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/pmICNOf6hE8/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/pmICNOf6hE8/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/pmICNOf6hE8/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "121 Art",
+          "liveBroadcastContent": "none",
+          "publishTime": "2021-02-27T20:00:49Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "lyMC9WNTGeZ5K0OAMAjlkXs_LeE",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "6VVvLXYwYAs"
+        },
+        "snippet": {
+          "publishedAt": "2021-10-15T08:00:06Z",
+          "channelId": "UCzXQiw4QAxz3QrlhTwGc_OQ",
+          "title": "Fast expressive portrait painting with loose brushwork /   Artist Corey Moortgat",
+          "description": "Learn to paint expressive portraits. Corey Moortgat brings to life a bold color magenta face. Do you want to learn to paint this and ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/6VVvLXYwYAs/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/6VVvLXYwYAs/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/6VVvLXYwYAs/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "Bold School",
+          "liveBroadcastContent": "none",
+          "publishTime": "2021-10-15T08:00:06Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "za9wwpBEQTRw9EOR2PpvOX64ikA",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "JGthM8pIm7I"
+        },
+        "snippet": {
+          "publishedAt": "2023-03-31T14:00:13Z",
+          "channelId": "UCgpzW4py32WW-Bbkxs8iTVA",
+          "title": "Drawing Portraits with COLORED PENCILS (Sketchbook Studies)",
+          "description": "Portrait drawing in my sketchbook using one color! Monochromatic sketch studies Head to https://squarespace.com/jesskarp to ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/JGthM8pIm7I/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/JGthM8pIm7I/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/JGthM8pIm7I/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "Jess Karp",
+          "liveBroadcastContent": "none",
+          "publishTime": "2023-03-31T14:00:13Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "WBW9j3zFqLEPp5fbwP7bCYEGpGk",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "XcFvze7v-V0"
+        },
+        "snippet": {
+          "publishedAt": "2022-09-03T13:00:16Z",
+          "channelId": "UCrGDk5mKR0FtcSK4WOkKXLQ",
+          "title": "Alla Prima Portrait Painting",
+          "description": "This was an alla prima oil portrait in the Salmagundi Portrait Sketch Competition this past August. Tried my best in the five hours ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/XcFvze7v-V0/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/XcFvze7v-V0/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/XcFvze7v-V0/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "Patrick Okrasinski",
+          "liveBroadcastContent": "none",
+          "publishTime": "2022-09-03T13:00:16Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "jun8JKrLkG12NVfyE4JxVnUG15E",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "v8CG5dY-jRU"
+        },
+        "snippet": {
+          "publishedAt": "2017-07-11T12:33:26Z",
+          "channelId": "UC5ljhWJPiptmD7yoU6o4bTw",
+          "title": "Photoshop Portrait Brush Effects Tutorial | Abstract colorful art | Threshold Photo Editing NFT ART",
+          "description": "Subscribe for More FREE Tutorial : https://goo.gl/uqKnqe Download PsFiles : https://psfiles.com In this Photoshop Editing ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/v8CG5dY-jRU/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/v8CG5dY-jRU/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/v8CG5dY-jRU/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "Inspiring Bee",
+          "liveBroadcastContent": "none",
+          "publishTime": "2017-07-11T12:33:26Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "pKun-FG-nRTsl8nSf1Ca_SDCbxw",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "9TDgJ7flqRs"
+        },
+        "snippet": {
+          "publishedAt": "2022-04-30T14:50:53Z",
+          "channelId": "UCPimRcICXYvj1tLW5WB-Bww",
+          "title": "ABSTRACT COLOURS / Portrait Painting / How To Use Acrylics / Painting Technique",
+          "description": "ABSTRACT COLOURS / Portrait Painting / How To Use Acrylics / Painting Technique How To Time-Lapse Acrylic Painting ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/9TDgJ7flqRs/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/9TDgJ7flqRs/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/9TDgJ7flqRs/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "121 Art",
+          "liveBroadcastContent": "none",
+          "publishTime": "2022-04-30T14:50:53Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "s0-2qPbxMuEzoTVkwSXv9LxwyQI",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "IHm7uwrCiZU"
+        },
+        "snippet": {
+          "publishedAt": "2023-04-07T10:28:14Z",
+          "channelId": "UCZEL9lgEGqvZ5b3xsR3eXCQ",
+          "title": "pretty girl’s face painting with watercolor - Jennie",
+          "description": "watercolor portrait painting step by step watercolor painting tutorial for beginners with relaxing music - تعلم الرسم - الوان مائي for ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/IHm7uwrCiZU/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/IHm7uwrCiZU/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/IHm7uwrCiZU/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "tuta art",
+          "liveBroadcastContent": "none",
+          "publishTime": "2023-04-07T10:28:14Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "lv_DNCnHiz3xEH8VtIpBwr1BNHw",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "ojomFsbpJJQ"
+        },
+        "snippet": {
+          "publishedAt": "2023-05-21T12:00:08Z",
+          "channelId": "UCf9rHSrVHa6zVC-W-jttyew",
+          "title": "The SECRET to Making a Portrait Look Like Your Model",
+          "description": "portrait #portraitpainting #portraitpaintingtutorial In this Alla Prima Portrait Painting tutorial, Alex Tzavaras shows you the secret to ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/ojomFsbpJJQ/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/ojomFsbpJJQ/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/ojomFsbpJJQ/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "SIMPLIFY Drawing and Painting",
+          "liveBroadcastContent": "none",
+          "publishTime": "2023-05-21T12:00:08Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "mZIofCafpjZULTwQFOxzb6TN8w8",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "oQba3OxQnyg"
+        },
+        "snippet": {
+          "publishedAt": "2023-07-22T18:38:35Z",
+          "channelId": "UCPimRcICXYvj1tLW5WB-Bww",
+          "title": "PAINT A COLOUR PORTRAIT / Abstract Style / Acrylic Painting Technique",
+          "description": "PAINT A COLOUR PORTRAIT / Abstract Style / Acrylic Painting Technique How To Time-Lapse Painting Painted on 30 x 25 cm ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/oQba3OxQnyg/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/oQba3OxQnyg/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/oQba3OxQnyg/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "121 Art",
+          "liveBroadcastContent": "none",
+          "publishTime": "2023-07-22T18:38:35Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "5l_yf77VJDz4A8xFGIjLH3clNRY",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "LOhfX09mLSQ"
+        },
+        "snippet": {
+          "publishedAt": "2021-06-30T22:08:05Z",
+          "channelId": "UCPimRcICXYvj1tLW5WB-Bww",
+          "title": "&quot;THE LOOK&quot; -  Acrylic Painting - Color Portrait",
+          "description": "\"THE LOOK\" - Acrylic Painting - Color Portrait How To Time-Lapse Acrylic Painting Painted on Board - A4 size Colours: Pink, ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/LOhfX09mLSQ/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/LOhfX09mLSQ/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/LOhfX09mLSQ/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "121 Art",
+          "liveBroadcastContent": "none",
+          "publishTime": "2021-06-30T22:08:05Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "NPNOBZPb4WnSToPqI4Q__-Vwilg",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "u_YWambHUe8"
+        },
+        "snippet": {
+          "publishedAt": "2022-11-26T21:13:53Z",
+          "channelId": "UCelqEM3yL9CP89VVQ_t-6yQ",
+          "title": "Abstract Realism Portrait// Texture, Layers and my Thoughts",
+          "description": "Hey Friends!!! I decided to talk a little in this commentary about some of my thoughts. I hope you don't mind. I used a 24x30 inch ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/u_YWambHUe8/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/u_YWambHUe8/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/u_YWambHUe8/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "Lydia Broderick Art",
+          "liveBroadcastContent": "none",
+          "publishTime": "2022-11-26T21:13:53Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "fiPgUVeSdOhunfnYWloXxGQPtWA",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "XGdIpgQOSNc"
+        },
+        "snippet": {
+          "publishedAt": "2023-02-22T19:30:02Z",
+          "channelId": "UCn6m00OMOEGmXjRJH1ccJNA",
+          "title": "Modern Oil painting #oilpainting",
+          "description": "Dowload a free PDF-GUIDE by EVGENY JACKPOT «Construction and proportions in human portrait». Follow the link in the ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/XGdIpgQOSNc/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/XGdIpgQOSNc/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/XGdIpgQOSNc/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "Artefacto Learning Platform",
+          "liveBroadcastContent": "none",
+          "publishTime": "2023-02-22T19:30:02Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "LhV8LPZ1RYRa_KbuN6dT_Nflf7w",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "pa2bEmPNBlg"
+        },
+        "snippet": {
+          "publishedAt": "2019-08-04T15:30:06Z",
+          "channelId": "UCSAzZRXLCeVYfe5Y5s0YB2Q",
+          "title": "Painting a Face in 5 Steps",
+          "description": "How to paint a basic portrait in 5 simple steps. LIMITED EDITION PRINTS at www.alpayefe.com/store SUPPORT THE ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/pa2bEmPNBlg/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/pa2bEmPNBlg/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/pa2bEmPNBlg/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "Alpay Efe",
+          "liveBroadcastContent": "none",
+          "publishTime": "2019-08-04T15:30:06Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "4gYYi4yM7zOofJZcWbWwYhSsvcs",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "gjabPV1BSQk"
+        },
+        "snippet": {
+          "publishedAt": "2022-06-27T12:48:31Z",
+          "channelId": "UC9-cU39AhFPZUH9RUTjb5Ng",
+          "title": "Acrylics Portrait Painting",
+          "description": "",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/gjabPV1BSQk/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/gjabPV1BSQk/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/gjabPV1BSQk/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "PS.RATHOUR ARTS",
+          "liveBroadcastContent": "none",
+          "publishTime": "2022-06-27T12:48:31Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "QOWNCeWRhhB5Q4RiJjubUxdydKU",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "1-6YE5V0NBk"
+        },
+        "snippet": {
+          "publishedAt": "2020-03-06T18:56:45Z",
+          "channelId": "UCzXQiw4QAxz3QrlhTwGc_OQ",
+          "title": "Paint a COLORFUL acrylic PORTRAIT",
+          "description": "Join Bold Color Bootcamp online course: http://www.boldschool.com While I paint this colorful portrait of a bearded man let's ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/1-6YE5V0NBk/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/1-6YE5V0NBk/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/1-6YE5V0NBk/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "Bold School",
+          "liveBroadcastContent": "none",
+          "publishTime": "2020-03-06T18:56:45Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "cqmZkNwHoWR-RQTsSf5q3M6aVUw",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "HMF9DPzOAPw"
+        },
+        "snippet": {
+          "publishedAt": "2021-02-15T21:27:36Z",
+          "channelId": "UCPimRcICXYvj1tLW5WB-Bww",
+          "title": "&quot;COLOURS&quot;  PAINTING / Acrylic Portrait on Canvas",
+          "description": "\"COLOURS\" PAINTING / Acrylic Portrait on Canvas Paintings For Sale (featured on YouTube) My Shop: ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/HMF9DPzOAPw/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/HMF9DPzOAPw/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/HMF9DPzOAPw/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "121 Art",
+          "liveBroadcastContent": "none",
+          "publishTime": "2021-02-15T21:27:36Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "rMTJYCAYmaOok02j1h9IbA0beUs",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "oYAh2TCKXOI"
+        },
+        "snippet": {
+          "publishedAt": "2020-03-23T15:50:42Z",
+          "channelId": "UCzXQiw4QAxz3QrlhTwGc_OQ",
+          "title": "Beautiful BOLD COLOR Portrait. All the colors of the RAINBOW.",
+          "description": "As I paint a bold colorful face of a woman I met in a remote village of Kenya, I talk about Erosion and the beauty that time carves ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/oYAh2TCKXOI/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/oYAh2TCKXOI/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/oYAh2TCKXOI/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "Bold School",
+          "liveBroadcastContent": "none",
+          "publishTime": "2020-03-23T15:50:42Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "WKF_CPgpi31PCG4mBx5CjWqOI9I",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "Q7a2XB_kMVQ"
+        },
+        "snippet": {
+          "publishedAt": "2020-10-21T15:34:03Z",
+          "channelId": "UCGHCzXORMIUiBZmNHr1ovjw",
+          "title": "How to Create a Colorful Portrait! EASY Step-by-Step Color Pencil Process!",
+          "description": "Edited with a link to a new colour pencil portrait demo on Oct 14th, 2022! :) ✨NEW 2022 Color Pencil Portrait DEMO on Skillshare!",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/Q7a2XB_kMVQ/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/Q7a2XB_kMVQ/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/Q7a2XB_kMVQ/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "Chris Hong Art",
+          "liveBroadcastContent": "none",
+          "publishTime": "2020-10-21T15:34:03Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "4tJni-peGDK0acXJuOR7NBVnl2o",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "y-fjngE751Y"
+        },
+        "snippet": {
+          "publishedAt": "2021-04-18T01:45:47Z",
+          "channelId": "UChxdiTebxwAPVN4nrEH6OrQ",
+          "title": "Portrait Painting Tutorial | Old Master Style Approach + Modern Colors",
+          "description": "Want to take online classes with me starting at only $10 a month? Online Classes (Select Livestream Tier): ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/y-fjngE751Y/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/y-fjngE751Y/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/y-fjngE751Y/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "Yupari Artist",
+          "liveBroadcastContent": "none",
+          "publishTime": "2021-04-18T01:45:47Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "jrjv4Z4QLyrzzQPArJDs-YCWMfc",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "3FOwzeLiKts"
+        },
+        "snippet": {
+          "publishedAt": "2022-09-21T11:36:35Z",
+          "channelId": "UC9-cU39AhFPZUH9RUTjb5Ng",
+          "title": "Watercolors Portrait Painting",
+          "description": "",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/3FOwzeLiKts/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/3FOwzeLiKts/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/3FOwzeLiKts/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "PS.RATHOUR ARTS",
+          "liveBroadcastContent": "none",
+          "publishTime": "2022-09-21T11:36:35Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "y6rMHUXvNJta3GCsjmJ-oNhH69o",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "37llHoQbFS4"
+        },
+        "snippet": {
+          "publishedAt": "2022-02-16T14:06:35Z",
+          "channelId": "UC9-cU39AhFPZUH9RUTjb5Ng",
+          "title": "Rashmika Mandana - Painting with 3 Primary Colors | Acrylic Painting #shorts",
+          "description": "",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/37llHoQbFS4/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/37llHoQbFS4/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/37llHoQbFS4/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "PS.RATHOUR ARTS",
+          "liveBroadcastContent": "none",
+          "publishTime": "2022-02-16T14:06:35Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "KzXQT5MibNQOG7BQTyNqEqjkT5s",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "b-O28q9-Teg"
+        },
+        "snippet": {
+          "publishedAt": "2020-12-23T14:00:10Z",
+          "channelId": "UCB9berO64_friwLRsKQ9fag",
+          "title": "Drawing a Hyper Realistic portrait with colored pencil",
+          "description": "Hyperrealistic #drawing #colored #art Drawing a Hyper Realistic portrait with colored pencil Polychromos 36 Pencil Studio Set ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/b-O28q9-Teg/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/b-O28q9-Teg/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/b-O28q9-Teg/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "Fine Art Academy",
+          "liveBroadcastContent": "none",
+          "publishTime": "2020-12-23T14:00:10Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "FE01j5-rg4-J04HSJ5-IfEKzneo",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "Yau96xu76hc"
+        },
+        "snippet": {
+          "publishedAt": "2021-11-08T09:30:11Z",
+          "channelId": "UC2Tjp4rknS84gTXXsobnWpQ",
+          "title": "How to Blend Skin Tone with Acrylic | Realistic Portrait Painting in Acrylic By Debojyoti Boruah",
+          "description": "Subscribe: http://www.youtube.com/c/DebojyotiBoruahArt?sub_confirmation=1 This videos is all about blending skin tone with ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/Yau96xu76hc/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/Yau96xu76hc/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/Yau96xu76hc/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "Debojyoti Boruah Art",
+          "liveBroadcastContent": "none",
+          "publishTime": "2021-11-08T09:30:11Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "imSljjqwcIY6S0CCrP2SLADvJMY",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "QTqpWZtDH9M"
+        },
+        "snippet": {
+          "publishedAt": "2021-08-16T23:35:56Z",
+          "channelId": "UCg4eQuX8UoZkpZNno-eyYoQ",
+          "title": "Realistic Skin Tones with Just 4 colours!?!? The Zorn Palette - Colour Mixing Demonstration",
+          "description": "PAINTING PORTRAITS - Oil Painting Workshop https://www.andrewtischler.com/portrait-painting-workshop/ PATREON!",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/QTqpWZtDH9M/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/QTqpWZtDH9M/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/QTqpWZtDH9M/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "Andrew Tischler",
+          "liveBroadcastContent": "none",
+          "publishTime": "2021-08-16T23:35:56Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "eE6lrkujSWDfbpq5AlI9OiG8Co0",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "h22NwbGRk3U"
+        },
+        "snippet": {
+          "publishedAt": "2020-06-27T20:12:19Z",
+          "channelId": "UChxdiTebxwAPVN4nrEH6OrQ",
+          "title": "Portrait Painting Tutorial | Salvador Acrylic REVIEW + Blending Colors in ACRYLIC",
+          "description": "In this week's episode we put Salvador Premium Acrylic Paints to the test in this portrait painting tutorial! Yes, this is both a product ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/h22NwbGRk3U/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/h22NwbGRk3U/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/h22NwbGRk3U/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "Yupari Artist",
+          "liveBroadcastContent": "none",
+          "publishTime": "2020-06-27T20:12:19Z"
+        }
+      }
+    ]
+  },
+  {
+    "kind": "youtube#searchListResponse",
+    "etag": "nu5n4qF9CEnNtg5SfC5xKBLqXVI",
+    "nextPageToken": "CBkQAA",
+    "regionCode": "IN",
+    "pageInfo": {
+      "totalResults": 1000000,
+      "resultsPerPage": 25
+    },
+    "items": [
+      {
+        "kind": "youtube#searchResult",
+        "etag": "Qm07HXA5ye6yg0iPXXKMa5thZjA",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "SIvRcXRaPkg"
+        },
+        "snippet": {
+          "publishedAt": "2021-01-19T16:45:00Z",
+          "channelId": "UCNNOvB507MRfny7Jcv8MmOw",
+          "title": "How to Paint Better Backgrounds - Digital Art Tips",
+          "description": "A quick rundown of how I think of and approach background painting in my work! ✨ Monthly tutorials on my Patreon: ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/SIvRcXRaPkg/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/SIvRcXRaPkg/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/SIvRcXRaPkg/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "SamDoesArts",
+          "liveBroadcastContent": "none",
+          "publishTime": "2021-01-19T16:45:00Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "y8Leh6L3n-tU67qQapWVuh_Dpi4",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "MKtcsF5IUF0"
+        },
+        "snippet": {
+          "publishedAt": "2023-06-14T15:00:08Z",
+          "channelId": "UC4Qvpti1dS1KKC7PLyLl__g",
+          "title": "Painting Backgrounds for TV Animation! Photoshop",
+          "description": "Painting Backgrounds for TV Animation can seem dauting, but if you use value to focus your subject matter, use atmospheric ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/MKtcsF5IUF0/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/MKtcsF5IUF0/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/MKtcsF5IUF0/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "BaM Animation",
+          "liveBroadcastContent": "none",
+          "publishTime": "2023-06-14T15:00:08Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "dSq67LiaWgtF8gI1vmssIlQ3B3Q",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "pmdc2zQ9jvM"
+        },
+        "snippet": {
+          "publishedAt": "2021-06-01T04:00:53Z",
+          "channelId": "UCKtu_JtQCY0yryIy6zK4ZCg",
+          "title": "🌳 HOW TO PAINT SIMPLE ENVIRONMENTS (plus free brushes!)",
+          "description": "Get 35% OFF ($210) the ART School: Digital Artists program http://cgart.school until February 29 2024 ONLY!! Join the program ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/pmdc2zQ9jvM/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/pmdc2zQ9jvM/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/pmdc2zQ9jvM/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "Marc Brunet",
+          "liveBroadcastContent": "none",
+          "publishTime": "2021-06-01T04:00:53Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "ZrOgDcPeh66HhhZH3xoQbdTPA8Y",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "jkwQRm-CfoI"
+        },
+        "snippet": {
+          "publishedAt": "2021-06-30T22:23:37Z",
+          "channelId": "UCGz8UsnQO9C2xz_ZlsxAMRQ",
+          "title": "Painty background studies// Tips",
+          "description": "Head to https://squarespace.com/bluebiscuits to save 10% off your first purchase of a website or domain using code ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/jkwQRm-CfoI/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/jkwQRm-CfoI/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/jkwQRm-CfoI/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "Bluebiscuits",
+          "liveBroadcastContent": "none",
+          "publishTime": "2021-06-30T22:23:37Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "DiIzQNYNK_DPVwbj7G5TQLr4zC4",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "liI5mqolsZk"
+        },
+        "snippet": {
+          "publishedAt": "2020-08-17T13:48:21Z",
+          "channelId": "UC1v9HL0Wl03RxGt1DQIfaIA",
+          "title": "Digital Painting Backgrounds | Free Download",
+          "description": "Download Link: https://drive.google.com/file/d/1et4PHhxcr61SYzY-ojJRLEnJ6icQwdSb/view?usp=drivesdk Subscribe My ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/liI5mqolsZk/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/liI5mqolsZk/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/liI5mqolsZk/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "Ravindar Studio",
+          "liveBroadcastContent": "none",
+          "publishTime": "2020-08-17T13:48:21Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "olbEwjPUAaoifRs2SIBN5S006Vw",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "H9f58K7r9X8"
+        },
+        "snippet": {
+          "publishedAt": "2021-05-31T12:00:12Z",
+          "channelId": "UCwmDCkPQojch5khdMYCb0EA",
+          "title": "DRAW BACKGROUNDS in 2 EASY steps: use google earth and never ALWAYS listen to ROSSDRAWS! always",
+          "description": "There are things Ross Draws doesn't tell us. and I'm here to tell us. ⋗- - - ROSSDRAWS [ Illustration Master Course - Ep. 4: ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/H9f58K7r9X8/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/H9f58K7r9X8/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/H9f58K7r9X8/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "Ethan Becker",
+          "liveBroadcastContent": "none",
+          "publishTime": "2021-05-31T12:00:12Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "0uGJetULIwR0GSdzGE0XXfgsUlI",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "RQXCQdh-f5c"
+        },
+        "snippet": {
+          "publishedAt": "2021-11-15T15:33:38Z",
+          "channelId": "UCTkESEtN569u1ItrV6yn6VA",
+          "title": "Painting an Anime Background in Photoshop",
+          "description": "In this video I paint an environment referenced from a place in my local area. Liked what you saw and feel like supporting the ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/RQXCQdh-f5c/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/RQXCQdh-f5c/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/RQXCQdh-f5c/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "Olof Storm",
+          "liveBroadcastContent": "none",
+          "publishTime": "2021-11-15T15:33:38Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "Wt5okKF8dVtyodzzaAHbWOKLYCU",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "2PPsrtN01vc"
+        },
+        "snippet": {
+          "publishedAt": "2021-10-29T02:17:52Z",
+          "channelId": "UCK3lILEDn5vnhQ-_CBywrYA",
+          "title": "How to create digital Painting Background In Hindi",
+          "description": "digitalpainting Hi friends if you are interested in digital painting & Manipulation, full detailed course available in Hindi language ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/2PPsrtN01vc/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/2PPsrtN01vc/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/2PPsrtN01vc/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "Prashant Arts",
+          "liveBroadcastContent": "none",
+          "publishTime": "2021-10-29T02:17:52Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "Tk7IOPAPl4y6UPQhQxjrbOCRLyY",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "lk_2Z_ygBbg"
+        },
+        "snippet": {
+          "publishedAt": "2022-05-28T14:11:01Z",
+          "channelId": "UCKtu_JtQCY0yryIy6zK4ZCg",
+          "title": "HOW TO PAINT 3 SIMPLE CHARACTER BACKGROUNDS",
+          "description": "Get 35% OFF ($210) the ART School: Digital Artists program http://cgart.school until February 29 2024 ONLY!! Join the program ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/lk_2Z_ygBbg/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/lk_2Z_ygBbg/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/lk_2Z_ygBbg/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "Marc Brunet",
+          "liveBroadcastContent": "none",
+          "publishTime": "2022-05-28T14:11:01Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "ZMBSnFrTnwXu-odOuX7NOrf5dw0",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "6IQoBr1-c3k"
+        },
+        "snippet": {
+          "publishedAt": "2022-12-06T21:00:07Z",
+          "channelId": "UCqYVARi-20bHKVGMAJr2ylw",
+          "title": "Don&#39;t Draw BACKGROUNDS Like This!",
+          "description": "In this short art lesson, instructor Jessie explains helpful do's and don'ts she wishes she knew earlier for rendering backgrounds.",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/6IQoBr1-c3k/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/6IQoBr1-c3k/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/6IQoBr1-c3k/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "Winged Canvas",
+          "liveBroadcastContent": "none",
+          "publishTime": "2022-12-06T21:00:07Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "nIRDebjNzOOxaDvcUV1W0MPsuI4",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "Unau9KHn8Xg"
+        },
+        "snippet": {
+          "publishedAt": "2021-03-08T13:05:59Z",
+          "channelId": "UCkMK-WJFcixvnKVJcx_9DQQ",
+          "title": "How to Paint and Design a Landscape Environment (Digital Painting Tutorial)",
+          "description": "Learn how to paint a concept illustration digitally. The painting process roughly took two hours. Free Brush pack (50+ brushes) ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/Unau9KHn8Xg/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/Unau9KHn8Xg/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/Unau9KHn8Xg/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "Victor Staris",
+          "liveBroadcastContent": "none",
+          "publishTime": "2021-03-08T13:05:59Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "3NnkkAE2ZmhT0c-QcDhBqLKGFJI",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "oQ3QHLHfGko"
+        },
+        "snippet": {
+          "publishedAt": "2023-01-23T19:20:36Z",
+          "channelId": "UCOuE-Tcmt8yNdDGQGjStbaw",
+          "title": "How to draw backgrounds in 25 seconds #shorts #art #arttutorial",
+          "description": "",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/oQ3QHLHfGko/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/oQ3QHLHfGko/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/oQ3QHLHfGko/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "JustinArts",
+          "liveBroadcastContent": "none",
+          "publishTime": "2023-01-23T19:20:36Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "ncSrmIFlrRBiAeGyQE0fHMrIU44",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "tVynETvms-o"
+        },
+        "snippet": {
+          "publishedAt": "2022-09-06T13:00:38Z",
+          "channelId": "UC4Qvpti1dS1KKC7PLyLl__g",
+          "title": "Tips for Drawing Backgrounds!",
+          "description": "Backgrounds are Important for storytelling! But no one seems to want to draw them! In this Episode, Brent and Max draw ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/tVynETvms-o/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/tVynETvms-o/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/tVynETvms-o/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "BaM Animation",
+          "liveBroadcastContent": "none",
+          "publishTime": "2022-09-06T13:00:38Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "-hg9B6EF1EiGJeMTjjXTAYkbT3E",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "gnZkn2cmmvM"
+        },
+        "snippet": {
+          "publishedAt": "2023-04-27T12:24:32Z",
+          "channelId": "UCz-il6YyBq-d_B-t2V2Iacw",
+          "title": "Painting Tutorial (Studio Ghibli Background) 🏮 | Ibis Paint X Digital Painting",
+          "description": "Digital Painting Studio Ghibli Background (From Up On Poppy Hill) Device: Tab Samsung S6 Lite Digital Drawing App: Ibis ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/gnZkn2cmmvM/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/gnZkn2cmmvM/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/gnZkn2cmmvM/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "kanshue",
+          "liveBroadcastContent": "none",
+          "publishTime": "2023-04-27T12:24:32Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "WVQLgDjHtn5SzCDU9w_SXdINXSo",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "t4s2aIAKZ6s"
+        },
+        "snippet": {
+          "publishedAt": "2020-09-16T22:29:11Z",
+          "channelId": "UCbZXhYn7CWVEEo9bCHtx4JQ",
+          "title": "Background Art 101",
+          "description": "This is the first segment of the BG art stream that took place live on August 9th, 2020. SLIDESHOW: ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/t4s2aIAKZ6s/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/t4s2aIAKZ6s/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/t4s2aIAKZ6s/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "Devin Elle Kurtz",
+          "liveBroadcastContent": "none",
+          "publishTime": "2020-09-16T22:29:11Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "CQmGbM9_TvgVupYgEXGVp4Sxj-g",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "Zw5oB-ir5R0"
+        },
+        "snippet": {
+          "publishedAt": "2022-11-18T16:35:35Z",
+          "channelId": "UCD4XIm3ZFhT72WjqhIXMN9w",
+          "title": "art tip for drawing easy backgrounds 🌾 #shorts",
+          "description": "drawing backgrounds is notoriously hard, but with some blurring effects, you can make it look really cool with minimal time and ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/Zw5oB-ir5R0/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/Zw5oB-ir5R0/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/Zw5oB-ir5R0/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "LavenderTowne",
+          "liveBroadcastContent": "none",
+          "publishTime": "2022-11-18T16:35:35Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "eytUcGx014H1-0oJ2OXu-k-LU2w",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "X15wV_brtkI"
+        },
+        "snippet": {
+          "publishedAt": "2022-12-07T18:27:17Z",
+          "channelId": "UCNNOvB507MRfny7Jcv8MmOw",
+          "title": "Digital Painting Process!",
+          "description": "Some process shots of my recent piece, check out the final on my instagram @samdoesarts.",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/X15wV_brtkI/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/X15wV_brtkI/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/X15wV_brtkI/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "SamDoesArts",
+          "liveBroadcastContent": "none",
+          "publishTime": "2022-12-07T18:27:17Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "yBRCOGzVg4OuhKBZNAnnB5LH54M",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "so3owYqcwVg"
+        },
+        "snippet": {
+          "publishedAt": "2018-08-27T16:14:14Z",
+          "channelId": "UCS3ZMbzTOXdDuJlhAZuXgaw",
+          "title": "BACKGROUND PAINTING TUTORIAL",
+          "description": "Brushes I used are here: https://youtu.be/yC7Ob8q5lNw ▻ Thumbs up this video and SUBSCRIBE! ▻ DIGITAL PAINTING ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/so3owYqcwVg/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/so3owYqcwVg/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/so3owYqcwVg/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "Laura Price",
+          "liveBroadcastContent": "none",
+          "publishTime": "2018-08-27T16:14:14Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "U4uUO0AQHcVZa-zvbWBSjVx1I2c",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "loH2AFtArAA"
+        },
+        "snippet": {
+          "publishedAt": "2022-06-03T16:06:08Z",
+          "channelId": "UCLEVrhumRsK67JkP3G4w5cQ",
+          "title": "How to Paint a Ghibli Inspired Environment (Digital Art Tutorial)!",
+          "description": "AHH so excited to reveal my collab with Netmarble + Studio Ghibli!! I'm going to walk you through creating a Ghibli-inspired ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/loH2AFtArAA/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/loH2AFtArAA/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/loH2AFtArAA/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "Ross Draws",
+          "liveBroadcastContent": "none",
+          "publishTime": "2022-06-03T16:06:08Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "qhaHb2UlMN0QgjrjMN4UEngDf0g",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "hXLJAWri7Mw"
+        },
+        "snippet": {
+          "publishedAt": "2022-03-11T11:00:22Z",
+          "channelId": "UCcGEpumTSyFtPaoGiKiT0qg",
+          "title": "QUICK and EASY Background Tutorial! Digital Art Background Ideas",
+          "description": "Hi! Today's video is a tutorial about quick and easy background ideas. Drawing background digital art can be quite challenging.",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/hXLJAWri7Mw/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/hXLJAWri7Mw/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/hXLJAWri7Mw/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "Fungzau",
+          "liveBroadcastContent": "none",
+          "publishTime": "2022-03-11T11:00:22Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "3rA3cspRpNK3TOTzALg5dgIfCOU",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "1vuXskHlm_g"
+        },
+        "snippet": {
+          "publishedAt": "2020-12-05T15:33:41Z",
+          "channelId": "UCPLqLa9efJdhSYo3mZSCELQ",
+          "title": "10 Sketches In 10 Minutes | Digital Speed Paint Timelapse | Concept Art",
+          "description": "Easily Create Videos in Minutes using This Free and Powerful Movie Editing Tool: ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/1vuXskHlm_g/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/1vuXskHlm_g/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/1vuXskHlm_g/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "The Geek Artist",
+          "liveBroadcastContent": "none",
+          "publishTime": "2020-12-05T15:33:41Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "6LRd5-V-MV1yA6S8gSeJxWLAxRc",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "3rvwp7vDyxc"
+        },
+        "snippet": {
+          "publishedAt": "2021-10-31T15:45:13Z",
+          "channelId": "UCPLqLa9efJdhSYo3mZSCELQ",
+          "title": "Easy Formula for Painting Simple &amp; Visually Appealing Landscapes | Background Digital Art Tutorial",
+          "description": "Digital Environment Painting From A-Z Course Link: https://www.wingfox.com/c/8309_38625_12287 Use Discount Code: TGA10 ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/3rvwp7vDyxc/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/3rvwp7vDyxc/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/3rvwp7vDyxc/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "The Geek Artist",
+          "liveBroadcastContent": "none",
+          "publishTime": "2021-10-31T15:45:13Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "AA5caM7E1iIbCyhKUbcK-tBiHSo",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "EnsMD4aXXvQ"
+        },
+        "snippet": {
+          "publishedAt": "2021-07-06T11:05:21Z",
+          "channelId": "UCOnenmM62ur7kGisk2ammeg",
+          "title": "how to paint backgrounds for characters",
+          "description": "This week I have created a digital art tutorial on how to paint backgrounds for characters, except... we're not going to paint any ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/EnsMD4aXXvQ/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/EnsMD4aXXvQ/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/EnsMD4aXXvQ/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "Matthew Dobrich Illustration",
+          "liveBroadcastContent": "none",
+          "publishTime": "2021-07-06T11:05:21Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "yK54yZPg4YvxhDZ-vShcAAntW3M",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "9oOnK9m9LzQ"
+        },
+        "snippet": {
+          "publishedAt": "2020-11-24T16:45:01Z",
+          "channelId": "UCNNOvB507MRfny7Jcv8MmOw",
+          "title": "Painting without OPACITY | Digital Art Challenge",
+          "description": "This is one of the best ways I've found to learn about colours, relationships between colours, colour harmony, etc. I do this a lot to ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/9oOnK9m9LzQ/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/9oOnK9m9LzQ/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/9oOnK9m9LzQ/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "SamDoesArts",
+          "liveBroadcastContent": "none",
+          "publishTime": "2020-11-24T16:45:01Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "xWUphpFNt-t3w2J_d98iAzVwfjc",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "4MlWZDx7Zzw"
+        },
+        "snippet": {
+          "publishedAt": "2020-03-13T17:00:00Z",
+          "channelId": "UCLEVrhumRsK67JkP3G4w5cQ",
+          "title": "Top 5 Tips for Painting Environments &amp; Landscapes!",
+          "description": "My debut book NIMA is out now: https://rossdraws.com/nima Heyo! Resuming NIMAVERSE Month, i'm teaching you guys my ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/4MlWZDx7Zzw/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/4MlWZDx7Zzw/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/4MlWZDx7Zzw/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "Ross Draws",
+          "liveBroadcastContent": "none",
+          "publishTime": "2020-03-13T17:00:00Z"
+        }
+      }
+    ]
+  }
+]
