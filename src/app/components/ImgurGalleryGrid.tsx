@@ -65,8 +65,6 @@ const GalleryItem = ({
     // let colSpan = ((result.images_count ?? 0) % grid) + 1;
     let colSpan = Math.floor(((result.images_count ?? 0) * grid) / 10) + 1;
     sum.current += colSpan;
-
-    // console.log(sum.current);
     if (sum.current >= grid) {
       colSpan = grid - sum.current + colSpan;
       sum.current = 0;

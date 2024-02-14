@@ -6,9 +6,9 @@ import {
   getYoutubeVideosByQuery,
 } from "../lib/api";
 import { getToken } from "next-auth/jwt";
-import { auth } from "./api/auth/[...nextauth]/route";
 import fs from "fs";
 import ResultsGrid from "./components/ResultsGrid";
+import { auth } from "@/src/lib/utils";
 const TERMS = [
   "digital portraits",
   "colorful portraits styles",
@@ -117,6 +117,7 @@ export default async function Home() {
           results[index]?.results?.length ? (
             <ResultsGrid
               term={term}
+              key={term.split(" ").join("_")}
               grid={grid}
               results={results[index]?.results}
               videoResults={(videoResults[index]?.items ?? []).slice(0, 10)}

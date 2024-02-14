@@ -59,8 +59,6 @@ const ImageItem = ({
     let colSpan = (num % 3) + 1;
     // let colspan = num;
     sum.current += colSpan;
-
-    // console.log(sum.current);
     if (sum.current >= grid) {
       colSpan = grid - sum.current + colSpan;
       sum.current = 0;

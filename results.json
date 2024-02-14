@@ -2,7 +2,7 @@
   {
     "has_more": true,
     "next_offset": 25,
-    "estimated_total": 132134,
+    "estimated_total": 132128,
     "results": [
       {
         "deviationid": "717CDBC9-F3EA-2490-9060-0D09F1A7420C",
@@ -145,7 +145,7 @@
         },
         "stats": {
           "comments": 0,
-          "favourites": 3
+          "favourites": 5
         },
         "published_time": "1707915310",
         "allows_comments": true,
@@ -1517,8 +1517,69 @@
   {
     "has_more": true,
     "next_offset": 25,
-    "estimated_total": 18459,
+    "estimated_total": 18460,
     "results": [
+      {
+        "deviationid": "22131CA1-BA46-95E4-E8D8-2BA1C66926F0",
+        "printid": null,
+        "url": "https://www.deviantart.com/mikezylber/art/Old-Man-Viking-Clevis-1019418836",
+        "title": "Old Man Viking Clevis",
+        "category": "Visual Art",
+        "category_path": "visual_art",
+        "is_favourited": false,
+        "is_deleted": false,
+        "is_published": true,
+        "is_blocked": false,
+        "author": {
+          "userid": "929EF61D-22B9-CBE1-C3FC-392F12D99D78",
+          "username": "mikezylber",
+          "usericon": "https://a.deviantart.net/avatars/m/i/mikezylber.png?2",
+          "type": "premium",
+          "is_subscribed": false
+        },
+        "stats": {
+          "comments": 0,
+          "favourites": 0
+        },
+        "published_time": "1707925267",
+        "allows_comments": true,
+        "preview": {
+          "src": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/b17f5c6c-3757-41af-a23f-2af74c0c9f81/dguxolw-8a00bf8c-a3d3-4ed2-929b-6a3c9d273a7d.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2IxN2Y1YzZjLTM3NTctNDFhZi1hMjNmLTJhZjc0YzBjOWY4MVwvZGd1eG9sdy04YTAwYmY4Yy1hM2QzLTRlZDItOTI5Yi02YTNjOWQyNzNhN2QuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.iqOMEOrKD7A1XiKOgEQoO0kyTyqBzYjJd71GP4UgyuE",
+          "height": 1024,
+          "width": 576,
+          "transparency": false
+        },
+        "content": {
+          "src": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/b17f5c6c-3757-41af-a23f-2af74c0c9f81/dguxolw-8a00bf8c-a3d3-4ed2-929b-6a3c9d273a7d.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2IxN2Y1YzZjLTM3NTctNDFhZi1hMjNmLTJhZjc0YzBjOWY4MVwvZGd1eG9sdy04YTAwYmY4Yy1hM2QzLTRlZDItOTI5Yi02YTNjOWQyNzNhN2QuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.iqOMEOrKD7A1XiKOgEQoO0kyTyqBzYjJd71GP4UgyuE",
+          "height": 1024,
+          "width": 576,
+          "transparency": false,
+          "filesize": 57124
+        },
+        "thumbs": [
+          {
+            "src": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/b17f5c6c-3757-41af-a23f-2af74c0c9f81/dguxolw-8a00bf8c-a3d3-4ed2-929b-6a3c9d273a7d.jpg/v1/fit/w_150,h_150,q_70,strp/old_man_viking_clevis_by_mikezylber_dguxolw-150.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTAyNCIsInBhdGgiOiJcL2ZcL2IxN2Y1YzZjLTM3NTctNDFhZi1hMjNmLTJhZjc0YzBjOWY4MVwvZGd1eG9sdy04YTAwYmY4Yy1hM2QzLTRlZDItOTI5Yi02YTNjOWQyNzNhN2QuanBnIiwid2lkdGgiOiI8PTU3NiJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.vZdJ6i70JvxJzrdsiUlRMeuTSwEl6FB2Xw0MvTrbYYo",
+            "height": 150,
+            "width": 84,
+            "transparency": false
+          },
+          {
+            "src": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/b17f5c6c-3757-41af-a23f-2af74c0c9f81/dguxolw-8a00bf8c-a3d3-4ed2-929b-6a3c9d273a7d.jpg/v1/crop/w_113,h_200,x_0,y_0,scl_0.19618055555556,q_70,strp/old_man_viking_clevis_by_mikezylber_dguxolw-200h.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTAyNCIsInBhdGgiOiJcL2ZcL2IxN2Y1YzZjLTM3NTctNDFhZi1hMjNmLTJhZjc0YzBjOWY4MVwvZGd1eG9sdy04YTAwYmY4Yy1hM2QzLTRlZDItOTI5Yi02YTNjOWQyNzNhN2QuanBnIiwid2lkdGgiOiI8PTU3NiJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.vZdJ6i70JvxJzrdsiUlRMeuTSwEl6FB2Xw0MvTrbYYo",
+            "height": 200,
+            "width": 113,
+            "transparency": false
+          },
+          {
+            "src": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/b17f5c6c-3757-41af-a23f-2af74c0c9f81/dguxolw-8a00bf8c-a3d3-4ed2-929b-6a3c9d273a7d.jpg/v1/fit/w_300,h_900,q_70,strp/old_man_viking_clevis_by_mikezylber_dguxolw-300w.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTAyNCIsInBhdGgiOiJcL2ZcL2IxN2Y1YzZjLTM3NTctNDFhZi1hMjNmLTJhZjc0YzBjOWY4MVwvZGd1eG9sdy04YTAwYmY4Yy1hM2QzLTRlZDItOTI5Yi02YTNjOWQyNzNhN2QuanBnIiwid2lkdGgiOiI8PTU3NiJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.vZdJ6i70JvxJzrdsiUlRMeuTSwEl6FB2Xw0MvTrbYYo",
+            "height": 533,
+            "width": 300,
+            "transparency": false
+          }
+        ],
+        "is_mature": false,
+        "is_downloadable": true,
+        "download_filesize": 57124
+      },
       {
         "deviationid": "CB686F04-52B3-9CC1-2146-FF7C0F0ABFE9",
         "printid": null,
@@ -1661,7 +1722,7 @@
         },
         "stats": {
           "comments": 0,
-          "favourites": 3
+          "favourites": 4
         },
         "published_time": "1707885003",
         "allows_comments": true,
@@ -2976,66 +3037,6 @@
         "is_mature": false,
         "is_downloadable": true,
         "download_filesize": 154937
-      },
-      {
-        "deviationid": "FF5D1475-1484-961F-369F-F8BBAB94C17A",
-        "printid": null,
-        "url": "https://www.deviantart.com/metshacollective/art/Portraits-18-1019235377",
-        "title": "Portraits #18",
-        "category": "Visual Art",
-        "category_path": "visual_art",
-        "is_favourited": false,
-        "is_deleted": false,
-        "is_published": true,
-        "is_blocked": false,
-        "author": {
-          "userid": "2CAB7A5D-6945-C8D9-D38A-95DC2B2AE130",
-          "username": "MetshaCollective",
-          "usericon": "https://a.deviantart.net/avatars/m/e/metshacollective.jpg?6",
-          "type": "premium",
-          "is_subscribed": false
-        },
-        "stats": {
-          "comments": 0,
-          "favourites": 2
-        },
-        "published_time": "1707595212",
-        "allows_comments": true,
-        "preview": {
-          "src": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5f3e7dde-7d6a-4b71-8e74-8c0d1c1549a6/dgutr1t-e912e6d7-86e2-4386-9128-7eb1015bd86e.jpg/v1/fill/w_894,h_894,q_70,strp/portraits__18_by_metshacollective_dgutr1t-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzVmM2U3ZGRlLTdkNmEtNGI3MS04ZTc0LThjMGQxYzE1NDlhNlwvZGd1dHIxdC1lOTEyZTZkNy04NmUyLTQzODYtOTEyOC03ZWIxMDE1YmQ4NmUuanBnIiwiaGVpZ2h0IjoiPD0xMjgwIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uud2F0ZXJtYXJrIl0sIndtayI6eyJwYXRoIjoiXC93bVwvNWYzZTdkZGUtN2Q2YS00YjcxLThlNzQtOGMwZDFjMTU0OWE2XC9tZXRzaGFjb2xsZWN0aXZlLTQucG5nIiwib3BhY2l0eSI6OTUsInByb3BvcnRpb25zIjowLjQ1LCJncmF2aXR5IjoiY2VudGVyIn19.A0AGPQ7zrKVk8FzhSWEZH8bAmOS-yM3Ev18vb1Zo82g",
-          "height": 894,
-          "width": 894,
-          "transparency": false
-        },
-        "content": {
-          "src": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5f3e7dde-7d6a-4b71-8e74-8c0d1c1549a6/dgutr1t-e912e6d7-86e2-4386-9128-7eb1015bd86e.jpg/v1/fill/w_1280,h_1280,q_75,strp/portraits__18_by_metshacollective_dgutr1t-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzVmM2U3ZGRlLTdkNmEtNGI3MS04ZTc0LThjMGQxYzE1NDlhNlwvZGd1dHIxdC1lOTEyZTZkNy04NmUyLTQzODYtOTEyOC03ZWIxMDE1YmQ4NmUuanBnIiwiaGVpZ2h0IjoiPD0xMjgwIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uud2F0ZXJtYXJrIl0sIndtayI6eyJwYXRoIjoiXC93bVwvNWYzZTdkZGUtN2Q2YS00YjcxLThlNzQtOGMwZDFjMTU0OWE2XC9tZXRzaGFjb2xsZWN0aXZlLTQucG5nIiwib3BhY2l0eSI6OTUsInByb3BvcnRpb25zIjowLjQ1LCJncmF2aXR5IjoiY2VudGVyIn19.A0AGPQ7zrKVk8FzhSWEZH8bAmOS-yM3Ev18vb1Zo82g",
-          "height": 1280,
-          "width": 1280,
-          "transparency": false,
-          "filesize": 784759
-        },
-        "thumbs": [
-          {
-            "src": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5f3e7dde-7d6a-4b71-8e74-8c0d1c1549a6/dgutr1t-e912e6d7-86e2-4386-9128-7eb1015bd86e.jpg/v1/fit/w_150,h_150,q_70,strp/portraits__18_by_metshacollective_dgutr1t-150.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzVmM2U3ZGRlLTdkNmEtNGI3MS04ZTc0LThjMGQxYzE1NDlhNlwvZGd1dHIxdC1lOTEyZTZkNy04NmUyLTQzODYtOTEyOC03ZWIxMDE1YmQ4NmUuanBnIiwiaGVpZ2h0IjoiPD0xMjgwIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uud2F0ZXJtYXJrIl0sIndtayI6eyJwYXRoIjoiXC93bVwvNWYzZTdkZGUtN2Q2YS00YjcxLThlNzQtOGMwZDFjMTU0OWE2XC9tZXRzaGFjb2xsZWN0aXZlLTQucG5nIiwib3BhY2l0eSI6OTUsInByb3BvcnRpb25zIjowLjQ1LCJncmF2aXR5IjoiY2VudGVyIn19.A0AGPQ7zrKVk8FzhSWEZH8bAmOS-yM3Ev18vb1Zo82g",
-            "height": 150,
-            "width": 150,
-            "transparency": false
-          },
-          {
-            "src": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5f3e7dde-7d6a-4b71-8e74-8c0d1c1549a6/dgutr1t-e912e6d7-86e2-4386-9128-7eb1015bd86e.jpg/v1/fill/w_200,h_200,q_70,strp/portraits__18_by_metshacollective_dgutr1t-200h.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzVmM2U3ZGRlLTdkNmEtNGI3MS04ZTc0LThjMGQxYzE1NDlhNlwvZGd1dHIxdC1lOTEyZTZkNy04NmUyLTQzODYtOTEyOC03ZWIxMDE1YmQ4NmUuanBnIiwiaGVpZ2h0IjoiPD0xMjgwIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uud2F0ZXJtYXJrIl0sIndtayI6eyJwYXRoIjoiXC93bVwvNWYzZTdkZGUtN2Q2YS00YjcxLThlNzQtOGMwZDFjMTU0OWE2XC9tZXRzaGFjb2xsZWN0aXZlLTQucG5nIiwib3BhY2l0eSI6OTUsInByb3BvcnRpb25zIjowLjQ1LCJncmF2aXR5IjoiY2VudGVyIn19.A0AGPQ7zrKVk8FzhSWEZH8bAmOS-yM3Ev18vb1Zo82g",
-            "height": 200,
-            "width": 200,
-            "transparency": false
-          },
-          {
-            "src": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5f3e7dde-7d6a-4b71-8e74-8c0d1c1549a6/dgutr1t-e912e6d7-86e2-4386-9128-7eb1015bd86e.jpg/v1/fit/w_300,h_900,q_70,strp/portraits__18_by_metshacollective_dgutr1t-300w.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzVmM2U3ZGRlLTdkNmEtNGI3MS04ZTc0LThjMGQxYzE1NDlhNlwvZGd1dHIxdC1lOTEyZTZkNy04NmUyLTQzODYtOTEyOC03ZWIxMDE1YmQ4NmUuanBnIiwiaGVpZ2h0IjoiPD0xMjgwIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uud2F0ZXJtYXJrIl0sIndtayI6eyJwYXRoIjoiXC93bVwvNWYzZTdkZGUtN2Q2YS00YjcxLThlNzQtOGMwZDFjMTU0OWE2XC9tZXRzaGFjb2xsZWN0aXZlLTQucG5nIiwib3BhY2l0eSI6OTUsInByb3BvcnRpb25zIjowLjQ1LCJncmF2aXR5IjoiY2VudGVyIn19.A0AGPQ7zrKVk8FzhSWEZH8bAmOS-yM3Ev18vb1Zo82g",
-            "height": 300,
-            "width": 300,
-            "transparency": false
-          }
-        ],
-        "is_mature": false,
-        "is_downloadable": false
       }
     ]
   },
@@ -4099,7 +4100,7 @@
         },
         "stats": {
           "comments": 0,
-          "favourites": 4
+          "favourites": 5
         },
         "published_time": "1707871231",
         "allows_comments": true,
