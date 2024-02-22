@@ -12,7 +12,7 @@ const colSpanClass: KeyValuePair = {
   [5]: "md:col-span-5",
   [6]: "md:col-span-6",
 };
-export default function ImagesGrid({ results, grid }: Props) {
+export default function ImagesGrid({ results = [], grid }: Props) {
   let sum = React.useRef(0);
   useEffect(() => {
     sum.current = 0;
@@ -75,6 +75,19 @@ const ImageItem = ({
         inline: "center",
       });
   }, [isExpanded]);
+
+  const ref = React.useRef<HTMLDivElement>(null);
+  // useEffect(() => {
+  //   if (ref.current) ref.current.style.display = "flex";
+  //   // containerRef.current.scrollIntoView({
+  //   //   behavior: "smooth",
+  //   //   block: "center",
+  //   //   inline: "center",
+  //   // });
+  //   return () => {
+  //     if (ref.current) ref.current.style.display = "none";
+  //   };
+  // }, [ref.current]);
   return !colSpan ? (
     <div className="w-full h-32 animate-pulse">
       <div className="w-full h-full bg-gray-300 rounded-lg dark:bg-gray-600 p-2">
@@ -83,12 +96,14 @@ const ImageItem = ({
     </div>
   ) : (
     <div
-      key={result.deviationid}
+      ref={ref}
+      key={Math.random()}
+      // key={result.deviationid}
       onClick={(e) => {
         e.preventDefault();
         setIsExpanded((prev) => !prev);
       }}
-      className={`relative rounded-lg bg-opacity-50 bg-gradient-to-br from-amber-500 via-yellow-100 to-yellow-700 p-0.5 flex flex-col items-center overflow-hidden cursor-pointer ${isExpanded ? "md:col-span-8" : colSpanClass[colSpan]} sm:col-span-full`}
+      className={`relative transition-all animate-push-pull duration-100  rounded-lg bg-opacity-50 bg-gradient-to-br from-amber-500 via-yellow-100 to-yellow-700 p-0.5 flex flex-col items-center overflow-hidden cursor-pointer ${isExpanded ? "md:col-span-8" : colSpanClass[colSpan]} sm:col-span-full`}
     >
       <div
         // href={result.url}

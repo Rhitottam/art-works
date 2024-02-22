@@ -18,6 +18,7 @@ export async function getImagesFromDeviantArt(
     limit: limit.toString(),
     access_token: accessToken,
   });
+  console.log("DeviantArt request:", params.toString());
   try {
     const response = await axios.get(
       `${baseUrl}/browse/newest?${params.toString()}`,

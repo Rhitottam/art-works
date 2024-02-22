@@ -1,5 +1,5 @@
 "use client";
-import { Result } from "@/types/deviantart";
+import { Result, SearchPopularResults } from "@/types/deviantart";
 import { Item } from "@/types/youtube";
 import { Item as GoogleSearchItem } from "@/types/google";
 import React from "react";
@@ -9,6 +9,9 @@ import { Gallery } from "@/types/imgur";
 import ImgurGalleryGrid from "./ImgurGalleryGrid";
 import Google from "next-auth/providers/google";
 import GoogleImageSearchGrid from "./GoogleImageSearchGrid";
+import Pagination from "./Pagination";
+import { redirect } from "next/dist/server/api-utils";
+import { useRouter } from "next/navigation";
 
 type Props = {
   results?: Result[];
@@ -17,6 +20,8 @@ type Props = {
   googleResults?: GoogleSearchItem[];
   term: string;
   grid: number;
+  searchParams: Record<string, string>;
+  children: React.ReactNode;
 };
 
 export default function ResultsGrid({
@@ -26,20 +31,16 @@ export default function ResultsGrid({
   googleResults,
   term,
   grid,
+  searchParams,
+  children,
 }: Props) {
-  const [isExpanded, setIsExpanded] = React.useState<boolean>(false);
+  const router = useRouter();
+  const [isExpanded, setIsExpanded] = React.useState<boolean>(true);
   return (
     <div className="flex flex-col border-emerald-200 border-2 bg-black bg-opacity-30 rounded-lg p-2 mb-2">
       <div
         onClick={(e) => {
           setIsExpanded((prev) => !prev);
-          // const content = document.getElementById(
-          //   `${term.split(" ").join("_")}_content`,
-          // );
-          // if (content) {
-          //   content.classList.toggle("grid-rows-1");
-          //   content.classList.toggle("grid-rows-none");
-          // }
         }}
         id={`${term.split(" ").join("_")}_title`}
         className="cursor-pointer font-2xl font-semibold  flex justify-between items-center"
@@ -78,17 +79,32 @@ export default function ResultsGrid({
         id={`${term.split(" ").join("_")}_content`}
       >
         <div className=" overflow-hidden flex flex-col gap-2">
-          <ImagesGrid
+          {children}
+          {/* <ImagesGrid
             results={results ?? []}
             grid={grid}
             key={`${term}_deviantart`}
+          />
+          <Pagination
+            currentPage={searchParams[term] ? Number(searchParams[term]) : 1}
+            onPage={(change) => {
+              console.log("change", change, searchParams);
+              router.push(
+                `/?${new URLSearchParams({
+                  ...searchParams,
+                  [term]: (Number(searchParams[term] ?? 0) + change).toString(),
+                }).toString()}`,
+                { scroll: false },
+              );
+              // getResults(term, 2);
+            }}
           />
           {/* <ImgurGalleryGrid
             results={galleryResults ?? []}
             grid={6}
             key={`${term}_imgur`}
           /> */}
-          <GoogleImageSearchGrid
+          {/* <GoogleImageSearchGrid
             results={googleResults ?? []}
             key={`${term}_google`}
             grid={grid}
@@ -96,7 +112,7 @@ export default function ResultsGrid({
           <VideosGrid
             results={(videoResults ?? []).slice(0, 10)}
             key={`${term}_youtube`}
-          />
+          /> */}
         </div>
       </div>
     </div>

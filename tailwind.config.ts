@@ -16,6 +16,17 @@ const config: Config = {
       fontFamily: {
         mont: ["Montserrat", "sans-serif"],
       },
+      keyframes: {
+        pushPull: {
+          "0%, 100%": { transform: "translateY(0rem)" },
+          "50%": { transform: "traslateY(20px))" },
+        },
+      },
+      animation: {
+        "pulse-once": "pulse 3s ease-in-out 1",
+        "bounce-once": "bounce 1s ease-in-out 1",
+        "push-pull": "pushPull 1s ease-in-out 1",
+      },
     },
   },
   plugins: [],

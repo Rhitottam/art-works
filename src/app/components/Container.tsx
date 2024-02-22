@@ -7,5 +7,5 @@ type Props = {
 };
 
 export default function Container({ children }: Props) {
-  return <SessionProvider refetchInterval={5 * 60}>{children}</SessionProvider>;
+  return <SessionProvider>{children}</SessionProvider>;
 }
