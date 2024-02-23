@@ -125,7 +125,12 @@ export default async function Home({
       <div className="lg:p-8 p-4">
         {(TERMS ?? []).map(
           (term, index) => (
-            <ResultsGrid term={term} grid={grid} searchParams={searchParams}>
+            <ResultsGrid
+              key={term.split(" ").join("_")}
+              term={term}
+              grid={grid}
+              searchParams={searchParams}
+            >
               {/* <Loading /> */}
               <Suspense fallback={<Loading />}>
                 <ImageResults
