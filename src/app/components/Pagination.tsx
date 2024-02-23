@@ -5,25 +5,28 @@ import React from "react";
 type PaginationProps = {
   currentPage: number;
   totalPages?: number;
+  onChangePage?: (change: number) => void;
   term: string;
   //changePage: (change: number) => void;
 };
 
 export default function Pagination({
   currentPage,
+  onChangePage,
   term,
   // changePage,
 }: PaginationProps) {
   const searchParams = useSearchParams();
   const router = useRouter();
   const changePage = (change: number) => {
+    if (onChangePage) return onChangePage(change);
     const newPage = currentPage + change;
     const newSearchParams = new URLSearchParams(searchParams);
     newSearchParams.set(term, newPage.toString());
     router.push(`/?${newSearchParams.toString()}`, { scroll: false });
   };
   return (
-    <div className="flex justify-between sticky bottom-0">
+    <div className="flex justify-between sticky bottom-0 my-1">
       <button
         disabled={currentPage === 0}
         onClick={() => changePage(-1)}

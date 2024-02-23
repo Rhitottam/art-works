@@ -12,6 +12,7 @@ type ImageResultsProps = {
   term: string;
   page?: number;
   grid?: number;
+  token?: string;
   searchParams: Record<string, string>;
 };
 
@@ -20,6 +21,7 @@ export default async function ImageResults({
   page,
   grid,
   searchParams,
+  token,
 }: ImageResultsProps) {
   const session = await auth();
   const isLoggedIn = Boolean(session?.user?.name);
@@ -48,11 +50,13 @@ export default async function ImageResults({
   return (
     <>
       <ImagesGrid
+        token={session.token}
         results={results?.results ?? []}
         grid={grid}
         key={`${term}_deviantart`}
+        term={term}
       />
-      <Pagination
+      {/* <Pagination
         currentPage={currentPage}
         term={term}
         // changePage={(change) => {
@@ -64,7 +68,7 @@ export default async function ImageResults({
         //     RedirectType.push,
         //   );
         // }}
-      />
+      /> */}
     </>
   );
 }

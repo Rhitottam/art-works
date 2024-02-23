@@ -1,7 +1,12 @@
 "use client";
-import { Result, TODO } from "@/types/deviantart";
+import { Result, SearchPopularResults, TODO } from "@/types/deviantart";
+import { useRouter, useSearchParams } from "next/navigation";
 import React, { MutableRefObject, useEffect, useLayoutEffect } from "react";
 import { KeyValuePair } from "tailwindcss/types/config";
+import Pagination from "./Pagination";
+import useSWR from "swr";
+import Loading from "../loading";
+import axios from "axios";
 
 type Props = TODO;
 const colSpanClass: KeyValuePair = {
@@ -12,34 +17,84 @@ const colSpanClass: KeyValuePair = {
   [5]: "md:col-span-5",
   [6]: "md:col-span-6",
 };
-export default function ImagesGrid({ results = [], grid }: Props) {
+export default function ImagesGrid({ results = [], grid, term, token }: Props) {
   let sum = React.useRef(0);
+
+  const [dataResults, setDataResults] = React.useState<Result[]>(results);
+
+  const searchParams = useSearchParams();
+  const currentPage = searchParams.get(term)
+    ? Number(searchParams.get(term))
+    : 0;
+  const [pageIndex, setPageIndex] = React.useState<number>(currentPage);
+  const { data, isLoading } = useSWR<Result[]>(
+    `/api/deviantArt/latest?${new URLSearchParams({
+      q: term,
+      offset: (pageIndex * 25).toString(),
+      limit: "25",
+      token,
+    }).toString()}`,
+    (results: any) => {
+      // console.log("DeviantArt responded with:", results);
+      // return results.results;
+      return axios.get<any>(results).then((res) => {
+        const params = new URLSearchParams(searchParams);
+        params.set(term, pageIndex.toString());
+        console.log("DeviantArt response", res.data.data.results);
+        window.history.pushState({}, "", `?${params.toString()}`);
+        return res.data.data.results;
+      });
+    },
+    {},
+  );
   useEffect(() => {
     sum.current = 0;
     return () => {
       sum.current = 0;
     };
-  }, [results]);
+  }, [data]);
   return (
-    <div
-      style={{
-        display: "grid",
-        // gridTemplateColumns: "repeat(5, minmax(128px, 1fr))",
-        // gridAutoRows: "minmax(128px, auto)",
-      }}
-      className={` w-full gap-2 md:gap-1 md:grid-cols-8 sm:grid-cols-2`}
-    >
-      {results.map((result: Result) => {
-        return (
-          <ImageItem
-            result={result}
-            grid={grid}
-            sum={sum}
-            key={result.deviationid}
-          />
-        );
-      })}
-    </div>
+    <>
+      {isLoading ? (
+        <Loading />
+      ) : (
+        <div
+          style={{
+            display: "grid",
+            // gridTemplateColumns: "repeat(5, minmax(128px, 1fr))",
+            // gridAutoRows: "minmax(128px, auto)",
+          }}
+          className={` w-full gap-2 md:gap-1 md:grid-cols-8 sm:grid-cols-2`}
+        >
+          {(data ?? []).map((result: Result) => {
+            return (
+              <ImageItem
+                result={result}
+                grid={grid}
+                sum={sum}
+                key={result.deviationid}
+              />
+            );
+          })}
+        </div>
+      )}
+      <Pagination
+        currentPage={currentPage}
+        term={term}
+        onChangePage={(change) => {
+          setPageIndex(pageIndex + change);
+        }}
+        // changePage={(change) => {
+        //   redirect(
+        //     `/?${new URLSearchParams({
+        //       ...searchParams,
+        //       [term]: (currentPage + change).toString(),
+        //     }).toString()}`,
+        //     RedirectType.push,
+        //   );
+        // }}
+      />
+    </>
   );
 }
 
@@ -77,17 +132,6 @@ const ImageItem = ({
   }, [isExpanded]);
 
   const ref = React.useRef<HTMLDivElement>(null);
-  // useEffect(() => {
-  //   if (ref.current) ref.current.style.display = "flex";
-  //   // containerRef.current.scrollIntoView({
-  //   //   behavior: "smooth",
-  //   //   block: "center",
-  //   //   inline: "center",
-  //   // });
-  //   return () => {
-  //     if (ref.current) ref.current.style.display = "none";
-  //   };
-  // }, [ref.current]);
   return !colSpan ? (
     <div className="w-full h-32 animate-pulse">
       <div className="w-full h-full bg-gray-300 rounded-lg dark:bg-gray-600 p-2">
@@ -109,7 +153,7 @@ const ImageItem = ({
         // href={result.url}
         ref={containerRef}
         style={{
-          backgroundImage: isExpanded ? "" : `url(${result.preview.src})`,
+          backgroundImage: isExpanded ? "" : `url(${result.preview?.src})`,
           backgroundRepeat: "no-repeat",
         }}
         className="bg-cover flex flex-row-reverse w-full h-full gap-0.5 rounded-lg bg-black"
@@ -121,7 +165,7 @@ const ImageItem = ({
           }}
           loading="lazy"
           className={` bg-cover ${isExpanded ? "" : "bg-black"}  bg-opacity-60 object-contain rounded-lg ${isExpanded ? "" : "max-h-32"} min-h-32 min-w-0 w-full`}
-          src={result.preview.src}
+          src={result.preview?.src}
           alt=""
         />
         <div
