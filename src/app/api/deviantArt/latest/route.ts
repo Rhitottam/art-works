@@ -5,7 +5,7 @@ const baseUrl = "https://www.deviantart.com/api/v1/oauth2";
 export const GET = async (req: NextRequest): Promise<Response> => {
   // const {query, offset, limit, token} = req. 1;
   const params = new URLSearchParams({
-    q: req.nextUrl.searchParams.get("query") ?? "",
+    q: req.nextUrl.searchParams.get("q") ?? "",
     offset: req.nextUrl.searchParams.get("offset") ?? "",
     limit: req.nextUrl.searchParams.get("limit") ?? "",
     access_token: req.nextUrl.searchParams.get("token") ?? "",

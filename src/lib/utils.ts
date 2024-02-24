@@ -6,6 +6,9 @@ import {
   NextApiResponse,
 } from "next";
 
+import { clsx, type ClassValue } from "clsx";
+import { twMerge } from "tailwind-merge";
+
 export function auth(
   ...args:
     | [GetServerSidePropsContext["req"], GetServerSidePropsContext["res"]]
@@ -13,4 +16,8 @@ export function auth(
     | []
 ): Promise<(any & { token?: string }) | null> {
   return getServerSession(...args, authOptions);
+}
+
+export function cn(...args: ClassValue[]) {
+  return twMerge(clsx(args));
 }

@@ -18,14 +18,23 @@ const config: Config = {
       },
       keyframes: {
         pushPull: {
-          "0%, 100%": { transform: "translateY(0rem)" },
-          "50%": { transform: "traslateY(20px))" },
+          "0%, 100%": {
+            transform: "scale(1)",
+            animationTimingFunction: "cubic-bezier(0.8,0,1,1)",
+          },
+          "50%": {
+            transform: "scale(0.75)",
+            animationTimingFunction: "cubic-bezier(0,0,0.2,1)",
+          },
+          // "0%, 100%": { transform: "translateY(0%)" },
+          // "50%": { transform: "translateY(20%)" },
         },
       },
       animation: {
         "pulse-once": "pulse 3s ease-in-out 1",
         "bounce-once": "bounce 1s ease-in-out 1",
-        "push-pull": "pushPull 1s ease-in-out 1",
+        "push-pull": "pushPull 1s ease-in-out infinite",
+        "push-pull-once": "pushPull 1s ease-in-out 1",
       },
     },
   },

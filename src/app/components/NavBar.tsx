@@ -9,7 +9,7 @@ export default function NavBar({}: Props) {
 
   return (
     <nav className="bg-black px-2 sm:px-4 py-3.5 rounded-sm text-base z-20 sticky top-0">
-      <div className="container flex flex-col items-center justify-between sm:flex-row">
+      <div className="flex flex-col items-center justify-between sm:flex-row">
         <span className="self-center text-xl font-semibold">
           <span className="font-bold text-emerald-400 text-xl">Art</span>
           {/* <span className="font-semibold  text-emerald-300 text-3xl">Works</span> */}

@@ -107,8 +107,8 @@ export default async function Home({
   //   );
   const grid = 8;
   return (
-    <main className="min-h-full flex-1 bg-gradient-to-br from-amber-500 via-violet-900 to-amber-500 relative ">
-      <div className="flex flex-wrap gap-2 mb-4 p-4 border-b-2 border-y-emerald-400 text-sm z-10 bg-black bg-opacity-80">
+    <main className="min-h-full flex-1 bg-gradient-to-br from-amber-500 via-violet-900 to-amber-500 relative flex flex-col items-center">
+      <div className="flex w-full flex-wrap gap-2 mb-4 p-4 border-b-2 border-y-emerald-400 text-sm z-10 bg-black bg-opacity-80">
         {TERMS.map((term, index) => (
           <span
             key={term}
@@ -122,7 +122,7 @@ export default async function Home({
           </span>
         ))}
       </div>
-      <div className="lg:p-8 p-4">
+      <div className="lg:p-8 p-4 container">
         {(TERMS ?? []).map(
           (term, index) => (
             <ResultsGrid

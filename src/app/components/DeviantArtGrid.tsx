@@ -19,25 +19,23 @@ const colSpanClass: KeyValuePair = {
 };
 export default function ImagesGrid({ results = [], grid, term, token }: Props) {
   let sum = React.useRef(0);
-
-  const [dataResults, setDataResults] = React.useState<Result[]>(results);
-
   const searchParams = useSearchParams();
-  const currentPage = searchParams.get(term)
-    ? Number(searchParams.get(term))
-    : 0;
-  const [pageIndex, setPageIndex] = React.useState<number>(currentPage);
+  const currentPage = React.useRef<number>(
+    searchParams.get(term) ? Number(searchParams.get(term)) : 0,
+  );
+  const [pageIndex, setPageIndex] = React.useState<number>(currentPage.current);
   const { data, isLoading } = useSWR<Result[]>(
-    `/api/deviantArt/latest?${new URLSearchParams({
-      q: term,
-      offset: (pageIndex * 25).toString(),
-      limit: "25",
-      token,
-    }).toString()}`,
-    (results: any) => {
+    [`/api/deviantArt/latest`, term, pageIndex, token],
+    async ([url, term, pageIndex, token]: string[]) => {
+      const requestUrl = `${url}?${new URLSearchParams({
+        q: term ?? undefined,
+        offset: (Number(pageIndex ?? 0) * 25).toString(),
+        limit: "25",
+        token,
+      }).toString()}`;
       // console.log("DeviantArt responded with:", results);
       // return results.results;
-      return axios.get<any>(results).then((res) => {
+      return await axios.get<any>(requestUrl).then((res) => {
         const params = new URLSearchParams(searchParams);
         params.set(term, pageIndex.toString());
         console.log("DeviantArt response", res.data.data.results);
@@ -45,7 +43,11 @@ export default function ImagesGrid({ results = [], grid, term, token }: Props) {
         return res.data.data.results;
       });
     },
-    {},
+    {
+      revalidateIfStale: false,
+      revalidateOnFocus: false,
+      shouldRetryOnError: false,
+    },
   );
   useEffect(() => {
     sum.current = 0;
@@ -79,20 +81,11 @@ export default function ImagesGrid({ results = [], grid, term, token }: Props) {
         </div>
       )}
       <Pagination
-        currentPage={currentPage}
+        currentPage={pageIndex}
         term={term}
         onChangePage={(change) => {
-          setPageIndex(pageIndex + change);
+          setPageIndex((prev) => prev + change);
         }}
-        // changePage={(change) => {
-        //   redirect(
-        //     `/?${new URLSearchParams({
-        //       ...searchParams,
-        //       [term]: (currentPage + change).toString(),
-        //     }).toString()}`,
-        //     RedirectType.push,
-        //   );
-        // }}
       />
     </>
   );
@@ -147,7 +140,7 @@ const ImageItem = ({
         e.preventDefault();
         setIsExpanded((prev) => !prev);
       }}
-      className={`relative transition-all animate-push-pull duration-100  rounded-lg bg-opacity-50 bg-gradient-to-br from-amber-500 via-yellow-100 to-yellow-700 p-0.5 flex flex-col items-center overflow-hidden cursor-pointer ${isExpanded ? "md:col-span-8" : colSpanClass[colSpan]} sm:col-span-full`}
+      className={`relative transition-all animate-push-pull-once duration-100  rounded-lg bg-opacity-50 bg-gradient-to-br from-amber-500 via-yellow-100 to-yellow-700 p-0.5 flex flex-col items-center overflow-hidden cursor-pointer ${isExpanded ? "md:col-span-8" : colSpanClass[colSpan]} sm:col-span-full`}
     >
       <div
         // href={result.url}

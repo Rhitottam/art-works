@@ -7,6 +7,7 @@ import ImagesGrid from "./DeviantArtGrid";
 import Pagination from "./Pagination";
 import { RedirectType, redirect } from "next/navigation";
 import { SearchPopularResults } from "@/types/deviantart";
+import Authenticate from "./Authenticate";
 
 type ImageResultsProps = {
   term: string;
@@ -21,9 +22,9 @@ export default async function ImageResults({
   page,
   grid,
   searchParams,
-  token,
 }: ImageResultsProps) {
   const session = await auth();
+  const token = session?.token ?? "";
   const isLoggedIn = Boolean(session?.user?.name);
   const useApiD = isLoggedIn;
   let resultsString;
@@ -39,7 +40,7 @@ export default async function ImageResults({
         term,
         currentPage * PAGE_SIZE,
         PAGE_SIZE,
-        session.token ?? "",
+        token,
       )
     : resultsString?.length
       ? JSON.parse(resultsString)
@@ -47,28 +48,15 @@ export default async function ImageResults({
   // const results = resultsString?.length ? JSON.parse(resultsString) : [];
   if (useApiD)
     fs.writeFileSync("results.json", JSON.stringify(results, null, 2));
-  return (
-    <>
-      <ImagesGrid
-        token={session.token}
-        results={results?.results ?? []}
-        grid={grid}
-        key={`${term}_deviantart`}
-        term={term}
-      />
-      {/* <Pagination
-        currentPage={currentPage}
-        term={term}
-        // changePage={(change) => {
-        //   redirect(
-        //     `/?${new URLSearchParams({
-        //       ...searchParams,
-        //       [term]: (currentPage + change).toString(),
-        //     }).toString()}`,
-        //     RedirectType.push,
-        //   );
-        // }}
-      /> */}
-    </>
+  return token.length ? (
+    <ImagesGrid
+      token={token}
+      results={results?.results ?? []}
+      grid={grid}
+      key={`${term}_deviantart`}
+      term={term}
+    />
+  ) : (
+    <Authenticate />
   );
 }
