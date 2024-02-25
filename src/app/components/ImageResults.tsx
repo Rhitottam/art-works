@@ -1,5 +1,5 @@
 import { getImagesFromDeviantArt } from "@/src/lib/api";
-import { PAGE_SIZE } from "@/src/lib/constants";
+import { GRID_SIZE, PAGE_SIZE } from "@/src/lib/constants";
 import { auth } from "@/src/lib/utils";
 import fs from "fs";
 import React from "react";
@@ -45,14 +45,13 @@ export default async function ImageResults({
     : resultsString?.length
       ? JSON.parse(resultsString)
       : [];
-  // const results = resultsString?.length ? JSON.parse(resultsString) : [];
   if (useApiD)
     fs.writeFileSync("results.json", JSON.stringify(results, null, 2));
   return token.length ? (
     <ImagesGrid
       token={token}
       results={results?.results ?? []}
-      grid={grid}
+      grid={grid ?? GRID_SIZE}
       key={`${term}_deviantart`}
       term={term}
     />

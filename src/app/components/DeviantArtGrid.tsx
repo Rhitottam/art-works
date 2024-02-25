@@ -7,8 +7,14 @@ import Pagination from "./Pagination";
 import useSWR from "swr";
 import Loading from "../loading";
 import axios from "axios";
+import { cn } from "@/src/lib/utils";
 
-type Props = TODO;
+type Props = {
+  results?: Result[];
+  grid: number;
+  term: string;
+  token: string;
+};
 const colSpanClass: KeyValuePair = {
   [1]: "md:col-span-1",
   [2]: "md:col-span-2",
@@ -17,8 +23,18 @@ const colSpanClass: KeyValuePair = {
   [5]: "md:col-span-5",
   [6]: "md:col-span-6",
 };
+const rowSpanClass: KeyValuePair = {
+  [1]: "md:row-span-1",
+  [2]: "md:row-span-2",
+  [3]: "md:row-span-3",
+  [4]: "md:row-span-4",
+  [5]: "md:row-span-5",
+  [6]: "md:row-span-6",
+};
 export default function ImagesGrid({ results = [], grid, term, token }: Props) {
-  let sum = React.useRef(0);
+  const sum = React.useRef(0);
+  const sections = React.useRef<number[]>([grid]);
+  const nextSections = React.useRef<number[]>([0]);
   const searchParams = useSearchParams();
   const currentPage = React.useRef<number>(
     searchParams.get(term) ? Number(searchParams.get(term)) : 0,
@@ -33,8 +49,6 @@ export default function ImagesGrid({ results = [], grid, term, token }: Props) {
         limit: "25",
         token,
       }).toString()}`;
-      // console.log("DeviantArt responded with:", results);
-      // return results.results;
       return await axios.get<any>(requestUrl).then((res) => {
         const params = new URLSearchParams(searchParams);
         params.set(term, pageIndex.toString());
@@ -51,8 +65,12 @@ export default function ImagesGrid({ results = [], grid, term, token }: Props) {
   );
   useEffect(() => {
     sum.current = 0;
+    sections.current = [grid];
+    nextSections.current = [0];
     return () => {
       sum.current = 0;
+      sections.current = [grid];
+      nextSections.current = [0];
     };
   }, [data]);
   return (
@@ -65,6 +83,9 @@ export default function ImagesGrid({ results = [], grid, term, token }: Props) {
             display: "grid",
             // gridTemplateColumns: "repeat(5, minmax(128px, 1fr))",
             // gridAutoRows: "minmax(128px, auto)",
+            gridTemplateColumns: "repeat(auto-fit, minmax(16rem, 1fr))",
+            gridTemplateRows: "repeat(auto-fit, 16rem)",
+            gridAutoFlow: "dense",
           }}
           className={` w-full gap-2 md:gap-1 md:grid-cols-8 sm:grid-cols-2`}
         >
@@ -75,6 +96,8 @@ export default function ImagesGrid({ results = [], grid, term, token }: Props) {
                 grid={grid}
                 sum={sum}
                 key={result.deviationid}
+                sections={sections}
+                nextSections={nextSections}
               />
             );
           })}
@@ -95,26 +118,35 @@ const ImageItem = ({
   result,
   grid,
   sum,
+  sections,
+  nextSections,
 }: {
   result: Result;
   grid: number;
   sum: MutableRefObject<number>;
+  sections?: MutableRefObject<number[]>;
+  nextSections?: MutableRefObject<number[]>;
 }) => {
   const [isExpanded, setIsExpanded] = React.useState<boolean | null>(null);
   const containerRef = React.useRef<HTMLDivElement>(null);
   const [colSpan, setColSpan] = React.useState<number>(0);
-  useEffect(() => {
-    const num = Math.floor(Math.random() * 10) + 1;
-    let colSpan = (num % 3) + 1;
-    // let colspan = num;
-    sum.current += colSpan;
-    if (sum.current >= grid) {
-      colSpan = grid - sum.current + colSpan;
-      sum.current = 0;
-    }
-    setColSpan(colSpan);
-  }, []);
+  const [rowSpan, setRowSpan] = React.useState<number>(0);
 
+  useEffect(() => {
+    if (sections?.current) {
+      const width = result.preview?.width ?? 0;
+      const height = result.preview?.height ?? 0;
+      const aspectRatio = height === 0 ? 1 : width / height;
+      let row = aspectRatio < 0.75 ? 2 : 1;
+      let col = aspectRatio > 1.5 ? 2 : 1;
+      if (row === col && Math.floor(Math.random() * 10) % 2 === 0) {
+        row = 2;
+        col = 2;
+      }
+      setColSpan(col);
+      setRowSpan(row);
+    }
+  }, []);
   useLayoutEffect(() => {
     if (containerRef.current && isExpanded !== null)
       containerRef.current.scrollIntoView({
@@ -134,13 +166,19 @@ const ImageItem = ({
   ) : (
     <div
       ref={ref}
-      key={Math.random()}
+      key={result.deviationid}
       // key={result.deviationid}
       onClick={(e) => {
         e.preventDefault();
         setIsExpanded((prev) => !prev);
       }}
-      className={`relative transition-all animate-push-pull-once duration-100  rounded-lg bg-opacity-50 bg-gradient-to-br from-amber-500 via-yellow-100 to-yellow-700 p-0.5 flex flex-col items-center overflow-hidden cursor-pointer ${isExpanded ? "md:col-span-8" : colSpanClass[colSpan]} sm:col-span-full`}
+      className={cn(
+        `relative transition-all  duration-100  rounded-lg bg-opacity-50 bg-gradient-to-br from-amber-500 via-yellow-100 to-yellow-700 p-0.5 flex flex-col items-center overflow-hidden cursor-pointer ${isExpanded ? "md:col-span-8" : colSpanClass[colSpan]} ${isExpanded ? "md:row-span-2" : rowSpanClass[rowSpan]} sm:col-span-full`,
+        {
+          "animate-push-pull-once": isExpanded,
+          "animate-pop-once": !isExpanded,
+        },
+      )}
     >
       <div
         // href={result.url}
@@ -153,11 +191,11 @@ const ImageItem = ({
       >
         <img
           style={{
-            height: isExpanded ? "640px" : "8rem",
-            objectPosition: isExpanded ? "right" : "center",
+            height: isExpanded ? "32rem" : "auto",
+            objectPosition: isExpanded ? "top" : "center",
           }}
           loading="lazy"
-          className={` bg-cover ${isExpanded ? "" : "bg-black"}  bg-opacity-60 object-contain rounded-lg ${isExpanded ? "" : "max-h-32"} min-h-32 min-w-0 w-full`}
+          className={` bg-cover ${isExpanded ? "" : "bg-black"}  bg-opacity-60 object-contain rounded-lg min-h-32 min-w-0 w-full`}
           src={result.preview?.src}
           alt=""
         />

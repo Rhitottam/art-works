@@ -18,7 +18,7 @@ const config: Config = {
       },
       keyframes: {
         pushPull: {
-          "0%, 100%": {
+          "0%": {
             transform: "scale(1)",
             animationTimingFunction: "cubic-bezier(0.8,0,1,1)",
           },
@@ -26,8 +26,24 @@ const config: Config = {
             transform: "scale(0.75)",
             animationTimingFunction: "cubic-bezier(0,0,0.2,1)",
           },
-          // "0%, 100%": { transform: "translateY(0%)" },
-          // "50%": { transform: "translateY(20%)" },
+          "100%": {
+            transform: "scale(1)",
+            animationTimingFunction: "cubic-bezier(0.8,0,1,1)",
+          },
+        },
+        pop: {
+          "0%": {
+            transform: "scale(1.5)",
+            animationTimingFunction: "cubic-bezier(0.8,0,1,1)",
+          },
+          "50%": {
+            transform: "scale(0.90)",
+            animationTimingFunction: "cubic-bezier(0,0,0.2,1)",
+          },
+          "100%": {
+            transform: "scale(1)",
+            animationTimingFunction: "cubic-bezier(0.8,0,1,1)",
+          },
         },
       },
       animation: {
@@ -35,6 +51,7 @@ const config: Config = {
         "bounce-once": "bounce 1s ease-in-out 1",
         "push-pull": "pushPull 1s ease-in-out infinite",
         "push-pull-once": "pushPull 1s ease-in-out 1",
+        "pop-once": "pop 1s ease-in-out 1",
       },
     },
   },
